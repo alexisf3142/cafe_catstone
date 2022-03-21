@@ -7,6 +7,7 @@ public class MenuManager : MonoBehaviour
 {
     public static MenuManager Instance;
     public string cafeName;
+    public bool newGame = false;
     public InputField inputField;
 
     public void Awake()
@@ -25,4 +26,11 @@ public class MenuManager : MonoBehaviour
     {
         cafeName = inputField.text;
     }
+
+    public void setNewGameTrue()
+    {
+        newGame = true;
+    }
+
+
 }
