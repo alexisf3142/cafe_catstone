@@ -688,6 +688,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 735722dc38cde4f4eaf43fd7908d9a79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cafeName: 
+  inputField: {fileID: 1775565598}
 --- !u!4 &1568680470
 Transform:
   m_ObjectHideFlags: 0
