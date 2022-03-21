@@ -9,6 +9,7 @@ public class MenuUIHandler : MonoBehaviour
 
     public void StartNew()
     {
+        MenuManager.Instance.SetCafeName();
         titleScreen.SetActive(false);
         SceneManager.LoadScene(1);
     }
