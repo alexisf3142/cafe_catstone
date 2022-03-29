@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 109d794b2b4a6f548a78c29f17fd5793
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3057729042810172867
+    second: beige_walk_up_1
+  - first:
+      213: -6118981457367506464
+    second: beige_walk_up_2
+  - first:
+      213: 171525502786787610
+    second: beige_walk_up_3
+  - first:
+      213: -7073839618269514021
+    second: beige_walk_up_4
+  - first:
+      213: 9108177410273361141
+    second: beige_idle_1
+  - first:
+      213: -2957515367287752556
+    second: beige_idle_2
+  - first:
+      213: 8662615605882911193
+    second: beige_idle_3
+  - first:
+      213: 6976186629864350961
+    second: beige_idle_4
+  - first:
+      213: -78146646717744400
+    second: beige_walk_back_1
+  - first:
+      213: 7050355317986271540
+    second: beige_walk_back_2
+  - first:
+      213: 4040486199118979244
+    second: beige_walk_back_3
+  - first:
+      213: 223327712606508504
+    second: beige_walk_back_4
+  - first:
+      213: -7789222055775297246
+    second: beige_walk_right_1
+  - first:
+      213: -7461076002089591501
+    second: beige_walk_right_2
+  - first:
+      213: -6733837314462508695
+    second: beige_walk_right_3
+  - first:
+      213: -5196934844844291538
+    second: beige_walk_right_4
+  - first:
+      213: -82933157833142257
+    second: beige_walk_left_1
+  - first:
+      213: -4469979844134085311
+    second: beige_walk_left_2
+  - first:
+      213: 3902543832176883911
+    second: beige_walk_left_3
+  - first:
+      213: 6362359885666353832
+    second: beige_walk_left_4
+  - first:
+      213: 3169171922998249936
+    second: beige_sleep_right_1
+  - first:
+      213: 4313086067376749438
+    second: beige_sleep_right_2
+  - first:
+      213: -4699053863805394631
+    second: beige_sleep_right_3
+  - first:
+      213: -2752004446522288376
+    second: beige_sleep_right_4
+  - first:
+      213: -8646770868914821865
+    second: beige_sleep_left_1
+  - first:
+      213: -8520556435519876279
+    second: beige_sleep_left_2
+  - first:
+      213: 7788714684208139616
+    second: beige_sleep_left_3
+  - first:
+      213: -257944444038263254
+    second: beige_sleep_left_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beige_walk_up_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 110
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c578182d5c3f6a20800000000000000
+      internalID: 3057729042810172867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_up_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 110
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e16866c8c2051ba0800000000000000
+      internalID: -6118981457367506464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_up_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 110
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19d6873981616200800000000000000
+      internalID: 171525502786787610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_up_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 110
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6f5f2985ca4dd90800000000000000
+      internalID: -7073839618269514021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_idle_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 110
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcb492f81fb66e70800000000000000
+      internalID: 9108177410273361141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_idle_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 110
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498fd0b617bc4f6d0800000000000000
+      internalID: -2957515367287752556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_idle_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 110
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9f76e3ffac73870800000000000000
+      internalID: 8662615605882911193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_idle_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 110
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4e4e747c460d060800000000000000
+      internalID: 6976186629864350961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_back_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 92
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa3002f90e5aeef0800000000000000
+      internalID: -78146646717744400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_back_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 92
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431abdcaec4e7d160800000000000000
+      internalID: 7050355317986271540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_back_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 92
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0ea5a6ac0b21830800000000000000
+      internalID: 4040486199118979244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_back_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 92
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d559621f5b691300800000000000000
+      internalID: 223327712606508504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_right_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22120e03fcf17e390800000000000000
+      internalID: -7789222055775297246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_right_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 73
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d124518eee47890800000000000000
+      internalID: -7461076002089591501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_right_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 73
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9691130d3aa9c82a0800000000000000
+      internalID: -6733837314462508695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_right_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 73
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ac43c0b47c0e7b0800000000000000
+      internalID: -5196934844844291538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_left_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 54
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00114b7bbc59def0800000000000000
+      internalID: -82933157833142257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_left_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 54
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d5b35c30177f1c0800000000000000
+      internalID: -4469979844134085311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_left_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 54
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c87b4550fe982630800000000000000
+      internalID: 3902543832176883911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_walk_left_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 54
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a286565b94ab4850800000000000000
+      internalID: 6362359885666353832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_sleep_right_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9c37ea2192bfb20800000000000000
+      internalID: 3169171922998249936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_sleep_right_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 35
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b7da33de82bdb30800000000000000
+      internalID: 4313086067376749438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_sleep_right_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 37
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931e373586b99ceb0800000000000000
+      internalID: -4699053863805394631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_sleep_right_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 37
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8075eb0698aeec9d0800000000000000
+      internalID: -2752004446522288376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_sleep_left_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 16
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715e22015bf700880800000000000000
+      internalID: -8646770868914821865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_sleep_left_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 16
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9435b24d017e0c980800000000000000
+      internalID: -8520556435519876279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_sleep_left_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 19
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d48192db2171c60800000000000000
+      internalID: 7788714684208139616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beige_sleep_left_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 19
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e405115e89b6cf0800000000000000
+      internalID: -257944444038263254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
