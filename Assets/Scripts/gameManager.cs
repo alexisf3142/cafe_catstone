@@ -16,6 +16,9 @@ public class gameManager : MonoBehaviour
 
     private List<GameObject> theLine;
     private float startOfLineX;
+
+    public float speed = 0.5f;
+    
     
 
 
@@ -43,20 +46,29 @@ public class gameManager : MonoBehaviour
     
     private void RemoveFirstCustomerInLine()
     {
-        GameObject leavingCustomer = this.theLine[0];
-        this.theLine.RemoveAt(0);
-        leavingCustomer.transform.position = Vector3.Lerp(leavingCustomer.transform.position, ExitWaypoit.transform.position,1);
+        if (theLine.Count > 0)
+        {
+            GameObject leavingCustomer = this.theLine[0];
+            this.theLine.RemoveAt(0);
+            leavingCustomer.transform.position = Vector3.Lerp(leavingCustomer.transform.position, ExitWaypoit.transform.position,1);
+            //leavingCustomer.transform.position = Vector3.Lerp(leavingCustomer.transform.position, ExitWaypoit.transform.position,Time.deltaTime * speed);
+        }
+
+        
     }
     
     private void updatePositions() {
-        for (int i = 0; i < theLine.Count; i++)
+        if (theLine.Count > 0)
         {
-            Debug.Log(theLine);
-            GameObject currCustomer = theLine[i];
-            Vector3 moveToPos = counterStart.transform.position;
-            moveToPos.x = i * 2;
-            currCustomer.transform.position = Vector3.Lerp(currCustomer.transform.position, moveToPos,1);
+            for (int i = 0; i < theLine.Count; i++)
+            {
+                Debug.Log(theLine);
+                GameObject currCustomer = theLine[i];
+                Vector3 moveToPos = counterStart.transform.position;
+                moveToPos.x = i * 2;
+                currCustomer.transform.position = Vector3.Lerp(currCustomer.transform.position, moveToPos,1);
 
+            }
         }
     }
 
