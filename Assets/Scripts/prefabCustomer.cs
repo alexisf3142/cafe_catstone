@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,8 @@ public class prefabCustomer : MonoBehaviour
     
     private bool orderStatus;
     private int placeInLine; // add this in later
+    private Vector3 targetPos;
+    public float speed = 1.0f;
     private List<string> orderList = new List<string>();
     
     // Start is called before the first frame update
@@ -22,10 +25,20 @@ public class prefabCustomer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("Prefab");
     }
-    
+
+    private void FixedUpdate()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
+    }
+
     public bool getOrderStatus (){
         return this.orderStatus;
+    }
+    
+    public void setTargetPos (Vector3 target)
+    {
+        this.targetPos = target;
     }
 }

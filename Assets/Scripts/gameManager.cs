@@ -50,7 +50,8 @@ public class gameManager : MonoBehaviour
         {
             GameObject leavingCustomer = this.theLine[0];
             this.theLine.RemoveAt(0);
-            leavingCustomer.transform.position = Vector3.Lerp(leavingCustomer.transform.position, ExitWaypoit.transform.position,1);
+            
+            leavingCustomer.GetComponent<prefabCustomer>().setTargetPos(ExitWaypoit.transform.position);
             //leavingCustomer.transform.position = Vector3.Lerp(leavingCustomer.transform.position, ExitWaypoit.transform.position,Time.deltaTime * speed);
         }
 
@@ -66,7 +67,7 @@ public class gameManager : MonoBehaviour
                 GameObject currCustomer = theLine[i];
                 Vector3 moveToPos = counterStart.transform.position;
                 moveToPos.x = i * 2;
-                currCustomer.transform.position = Vector3.Lerp(currCustomer.transform.position, moveToPos,1);
+                currCustomer.GetComponent<prefabCustomer>().setTargetPos(moveToPos);
 
             }
         }

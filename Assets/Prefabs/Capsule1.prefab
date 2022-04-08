@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1749540156075117185}
   - component: {fileID: 1749540156075117186}
-  - component: {fileID: 3963929236456172964}
+  - component: {fileID: 908179235584185083}
   m_Layer: 0
   m_Name: Capsule1
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3963929236456172964
+--- !u!114 &908179235584185083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,3 +95,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69d1cb76d9ef90d4a938a9277e0f75b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1

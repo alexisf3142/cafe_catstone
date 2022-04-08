@@ -12,4 +12,18 @@ public class generator
         return currOrder;
     }
 
+    private string genrateCoffee()
+    {
+        string chosenCoffe = "none";
+
+        return chosenCoffe;
+    }
+    
+    private string genrateDonut()
+    {
+        string chosenDonut = "none";
+
+        return chosenDonut;
+    }
+
 }
