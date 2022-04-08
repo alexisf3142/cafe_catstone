@@ -32,10 +32,13 @@ public class prefabCustomer : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (transform.position == this.movingStack.Peek())
+        if (this.movingStack.Count != 0)
         {
-            movingStack.Pop();
-            targetPos = this.movingStack.Peek();
+            if (transform.position == this.movingStack.Peek())
+            {
+                movingStack.Pop();
+                targetPos = this.movingStack.Peek();
+            }   
         }
         transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
     }
