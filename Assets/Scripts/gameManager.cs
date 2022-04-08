@@ -21,7 +21,10 @@ public class gameManager : MonoBehaviour
     
     
 
-
+    /* What do: adds a customer with a random order
+     * Input: Nothing
+     * Output: Void
+     */
     void addCustomer()
     {
         GameObject currCustomer = Instantiate(customerSpawnPrefab, Spawner.transform.position, transform.rotation);
@@ -44,6 +47,10 @@ public class gameManager : MonoBehaviour
         return theLine.Count;
     }
     
+    /* What do: Removes the first person in line and sends them to the exit
+     * Input: Nothing
+     * Output: Void
+     */
     private void RemoveFirstCustomerInLine()
     {
         if (theLine.Count > 0)
@@ -58,6 +65,10 @@ public class gameManager : MonoBehaviour
         
     }
     
+    /* What do: Updates the customers position in the line
+     * Input: Nothing
+     * Output: Void
+     */
     private void updatePositions() {
         if (theLine.Count > 0)
         {
