@@ -7,14 +7,13 @@ public class gameManager : MonoBehaviour
 {
 
     public GameObject customerSpawnPrefab;
-    public GameObject Spawner;
     [SerializeField]
-    public GameObject counterStart;
-    [SerializeField]
-    public GameObject ExitWaypoit;
+    public GameObject Waypoints;
     public bool buttonPressed = false;
 
     private List<GameObject> theLine;
+    private List<Vector3> theLinePositons;
+    private List<Vector3> ExitPath;
     private float startOfLineX;
 
     public float speed = 0.5f;
@@ -27,21 +26,33 @@ public class gameManager : MonoBehaviour
      */
     void addCustomer()
     {
-        GameObject currCustomer = Instantiate(customerSpawnPrefab, Spawner.transform.position, transform.rotation);
+        GameObject currCustomer = Instantiate(customerSpawnPrefab, Waypoints.transform.GetChild(0).transform.position, transform.rotation);
         theLine.Add(currCustomer);
     }
     
-    private bool customerOrderCompleted(){
-        /*if (theLine[0].prefabCustomer.getOrderStatus())
-        {
-            return true; 
-        }
-        else
-        {
-            return false;
-        }*/
-        return false;
+    /* What do: creates the line position arrays and Exit Path
+     * Input: Nothing
+     * Output: Void
+     */
+    void setUpLinesAndPaths()
+    {
+        
+        theLine = new List<GameObject>();
+        theLinePositons = new List<Vector3>();
+        ExitPath = new List<Vector3>();
+        
+        theLinePositons.Add(Waypoints.transform.GetChild(4).transform.position);
+        theLinePositons.Add(Waypoints.transform.GetChild(3).transform.position);
+        theLinePositons.Add(Waypoints.transform.GetChild(2).transform.position);
+        theLinePositons.Add(Waypoints.transform.GetChild(1).transform.position);
+        theLinePositons.Add(Waypoints.transform.GetChild(0).transform.position);
+
+        ExitPath.Add(Waypoints.transform.GetChild(7).transform.position);
+        ExitPath.Add(Waypoints.transform.GetChild(6).transform.position);
+        ExitPath.Add(Waypoints.transform.GetChild(5).transform.position);
     }
+    
+
     
     public int numOfCustomer(){
         return theLine.Count;
@@ -58,7 +69,7 @@ public class gameManager : MonoBehaviour
             GameObject leavingCustomer = this.theLine[0];
             this.theLine.RemoveAt(0);
             
-            leavingCustomer.GetComponent<prefabCustomer>().setTargetPos(ExitWaypoit.transform.position);
+            leavingCustomer.GetComponent<prefabCustomer>().setTargetPosStack(ExitPath);
             //leavingCustomer.transform.position = Vector3.Lerp(leavingCustomer.transform.position, ExitWaypoit.transform.position,Time.deltaTime * speed);
         }
 
@@ -76,9 +87,26 @@ public class gameManager : MonoBehaviour
             {
                 Debug.Log(theLine);
                 GameObject currCustomer = theLine[i];
-                Vector3 moveToPos = counterStart.transform.position;
-                moveToPos.x = i * 2;
-                currCustomer.GetComponent<prefabCustomer>().setTargetPos(moveToPos);
+                if (currCustomer.transform.position == Waypoints.transform.GetChild(0).transform.position)
+                {
+                    Debug.Log("Just Spawned");
+                    List<Vector3> subPath = new List<Vector3>();
+                    int spotTarget = 5 - i;
+                    Debug.Log(spotTarget); 
+                    //this is not creating the correct path, it is the same each time
+                    for (int j = 0; j < spotTarget; j++)
+                    {
+                        subPath.Add(theLinePositons[j]);
+                    }
+                    
+                    currCustomer.GetComponent<prefabCustomer>().setTargetPosStack(subPath);
+                }
+                else
+                {
+                    Debug.Log("Here");
+                    Vector3 moveToPos = theLinePositons[i];   
+                    currCustomer.GetComponent<prefabCustomer>().setTargetPos(moveToPos);
+                }
 
             }
         }
@@ -87,7 +115,7 @@ public class gameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        theLine = new List<GameObject>();
+        setUpLinesAndPaths();
         Debug.Log("X to add customer, C to complete first customer's order");
     }
 
@@ -95,7 +123,7 @@ public class gameManager : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) && this.theLine.Count < 5)
         {
             addCustomer();
             updatePositions();

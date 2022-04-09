@@ -37,7 +37,10 @@ public class prefabCustomer : MonoBehaviour
             if (transform.position == this.movingStack.Peek())
             {
                 movingStack.Pop();
-                targetPos = this.movingStack.Peek();
+                if (this.movingStack.Count != 0)
+                {
+                    targetPos = this.movingStack.Peek();  
+                }
             }   
         }
         transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
@@ -62,7 +65,12 @@ public class prefabCustomer : MonoBehaviour
      */
     public void setTargetPosStack (List<Vector3> targetList)
     {
-        for (int i = targetList.Count; i > 0; i++)
+        /*for (int i = targetList.Count-1; i > 0; i++)
+        {
+            movingStack.Push(targetList[i]);
+        }*/
+
+        for (int i = 0; i < targetList.Count; i++)
         {
             movingStack.Push(targetList[i]);
         }
