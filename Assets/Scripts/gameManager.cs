@@ -7,14 +7,20 @@ public class gameManager : MonoBehaviour
 {
 
     public GameObject customerSpawnPrefab;
+    public GameObject catPrefab1;
+    public GameObject catPrefab2;
     [SerializeField]
     public GameObject Waypoints;
+    public GameObject WaypointsForCats;
     public bool buttonPressed = false;
 
     private List<GameObject> theLine;
     private List<Vector3> theLinePositons;
     private List<Vector3> ExitPath;
-    private float startOfLineX;
+    
+    private List<GameObject> catsList;
+    private List<Vector3> CatPath1;
+    private List<Vector3> CatPath2;
 
     public float speed = 0.5f;
     
@@ -30,7 +36,14 @@ public class gameManager : MonoBehaviour
         theLine.Add(currCustomer);
     }
     
-    /* What do: creates the line position arrays and Exit Path
+    void addCat(GameObject cat, Vector3 spawn)
+    {
+        GameObject currCat= Instantiate(cat, spawn, transform.rotation);
+        catsList.Add(currCat);
+        currCat.GetComponent<catMoving>().setTargetPos(spawn);
+    }
+    
+    /* What do: creates the line position arrays and Exit Path and cat Paths
      * Input: Nothing
      * Output: Void
      */
@@ -40,6 +53,9 @@ public class gameManager : MonoBehaviour
         theLine = new List<GameObject>();
         theLinePositons = new List<Vector3>();
         ExitPath = new List<Vector3>();
+        CatPath1 = new List<Vector3>();
+        CatPath2 = new List<Vector3>();
+        catsList = new List<GameObject>();
         
         theLinePositons.Add(Waypoints.transform.GetChild(4).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(3).transform.position);
@@ -50,6 +66,15 @@ public class gameManager : MonoBehaviour
         ExitPath.Add(Waypoints.transform.GetChild(7).transform.position);
         ExitPath.Add(Waypoints.transform.GetChild(6).transform.position);
         ExitPath.Add(Waypoints.transform.GetChild(5).transform.position);
+        
+        CatPath1.Add(WaypointsForCats.transform.GetChild(0).transform.position);
+        CatPath1.Add(WaypointsForCats.transform.GetChild(1).transform.position);
+        CatPath1.Add(WaypointsForCats.transform.GetChild(2).transform.position);
+        
+        CatPath2.Add(WaypointsForCats.transform.GetChild(3).transform.position);
+        CatPath2.Add(WaypointsForCats.transform.GetChild(4).transform.position);
+        CatPath2.Add(WaypointsForCats.transform.GetChild(5).transform.position);
+        CatPath2.Add(WaypointsForCats.transform.GetChild(6).transform.position);
     }
     
 
@@ -91,10 +116,10 @@ public class gameManager : MonoBehaviour
                 {
                     Debug.Log("Just Spawned");
                     List<Vector3> subPath = new List<Vector3>();
-                    int spotTarget = 5 - i;
+                    int spotTarget = 4;
                     Debug.Log(spotTarget); 
                     //this is not creating the correct path, it is the same each time
-                    for (int j = 0; j < spotTarget; j++)
+                    for (int j = i; j < spotTarget; j++)
                     {
                         subPath.Add(theLinePositons[j]);
                     }
@@ -112,12 +137,92 @@ public class gameManager : MonoBehaviour
         }
     }
 
+    private void updateCatPath1(GameObject cat)
+    {
+        if (cat.transform.position == CatPath1[2])
+        {
+            cat.GetComponent<catMoving>().setTargetPos(CatPath1[0]);
+        }
+        
+        if (cat.transform.position == CatPath1[1])
+        {
+            cat.GetComponent<catMoving>().setTargetPos(CatPath1[0]);
+        }
+
+        if (cat.transform.position == CatPath1[0])
+        {
+            generator gen = new generator();
+            if (gen.returnRandomBool())
+            {
+                cat.GetComponent<catMoving>().setTargetPos(CatPath1[1]);
+            }
+            else
+            {
+                cat.GetComponent<catMoving>().setTargetPos(CatPath1[2]);
+            }
+        }
+    }
+    
+    private void updateCatPath2(GameObject cat)
+    {
+        generator gen = new generator();
+        
+        if (cat.transform.position == CatPath2[0])
+        {
+            if (gen.returnRandomBool())
+            {
+                cat.GetComponent<catMoving>().setTargetPos(CatPath2[1]);
+            }
+            else
+            {
+                cat.GetComponent<catMoving>().setTargetPos(CatPath2[3]);
+            }
+        }
+        if (cat.transform.position == CatPath2[1])
+        {
+            if (gen.returnRandomBool())
+            {
+                cat.GetComponent<catMoving>().setTargetPos(CatPath2[0]);
+            }
+            else
+            {
+                cat.GetComponent<catMoving>().setTargetPos(CatPath2[2]);
+            }
+            
+        }
+        if (cat.transform.position == CatPath2[2])
+        {
+            if (gen.returnRandomBool())
+            {
+                cat.GetComponent<catMoving>().setTargetPos(CatPath2[1]);
+            }
+            else
+            {
+                cat.GetComponent<catMoving>().setTargetPos(CatPath2[3]);
+            }
+        }
+        if (cat.transform.position == CatPath2[3])
+        {
+            if (gen.returnRandomBool())
+            {
+                cat.GetComponent<catMoving>().setTargetPos(CatPath2[0]);
+            }
+            else
+            {
+                cat.GetComponent<catMoving>().setTargetPos(CatPath2[2]);
+            }
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         setUpLinesAndPaths();
+        addCat(catPrefab1, CatPath1[2]);
+        addCat(catPrefab1, CatPath2[3]);
         Debug.Log("X to add customer, C to complete first customer's order");
     }
+    
 
     // Update is called once per frame
     void Update()
@@ -133,7 +238,10 @@ public class gameManager : MonoBehaviour
             RemoveFirstCustomerInLine();
             updatePositions();
         }
-        
+
+        updateCatPath1(catsList[0]);
+        updateCatPath2(catsList[1]);
+
     }
 
     private void FixedUpdate()

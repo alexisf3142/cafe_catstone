@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8346829962174959320}
   - component: {fileID: 8346829962174959321}
   - component: {fileID: 8346829962174959318}
+  - component: {fileID: -7035661463520326962}
   m_Layer: 0
   m_Name: Cat (grey)
   m_TagString: Untagged
@@ -102,3 +103,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-7035661463520326962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346829962174959319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66fbd0dd955d1c148aec08cf0c9c4a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
