@@ -36,4 +36,16 @@ public class generator
         return chosenBakeryItem;
     }
 
+    public bool returnRandomBool()
+    {
+        if (Random.Range(0,2) == 0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+
 }

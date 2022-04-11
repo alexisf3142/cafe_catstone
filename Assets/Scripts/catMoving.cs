@@ -1,35 +1,25 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
-public class prefabCustomer : MonoBehaviour
+public class catMoving : MonoBehaviour
 {
-    
-    private bool orderStatus;
-    private int placeInLine; // add this in later
+    private Stack<Vector3> movingStack = new Stack<Vector3>();
     private Vector3 targetPos;
     public float speed = 1.0f;
-    private List<string> orderList = new List<string>();
-    private Stack<Vector3> movingStack = new Stack<Vector3>();
     
     // Start is called before the first frame update
     void Start()
     {
-        this.orderStatus = false;
-        this.placeInLine = 0;
-        generator gen = new generator();
-        this.orderList = gen.genrateOrder();
-        Debug.Log(string.Join(", ", orderList));
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("Prefab");
+        
     }
-
+    
     private void FixedUpdate()
     {
         if (this.movingStack.Count != 0)
@@ -45,10 +35,7 @@ public class prefabCustomer : MonoBehaviour
         }
         transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
     }
-
-    public bool getOrderStatus (){
-        return this.orderStatus;
-    }
+    
     
     /* What do: Moves customer to a point
      * Input: a Vector3 position
