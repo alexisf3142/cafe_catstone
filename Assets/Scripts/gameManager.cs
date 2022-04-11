@@ -14,6 +14,9 @@ public class gameManager : MonoBehaviour
     public GameObject WaypointsForCats;
     public bool buttonPressed = false;
 
+    private bool coffeeDone = false;
+    private bool tringToCheckout = false;
+
     private List<GameObject> theLine;
     private List<GameObject> DeleteCustomers;
     private List<Vector3> theLinePositons;
@@ -238,7 +241,17 @@ public class gameManager : MonoBehaviour
         addCat(catPrefab1, CatPath2[3]);
         Debug.Log("X to add customer, C to complete first customer's order");
     }
+
+    public void setCoffeeDone(bool stat)
+    {
+        this.coffeeDone = stat;
+    }
     
+    public void setTringToCheckout(bool stat)
+    {
+        this.tringToCheckout = stat;
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -258,6 +271,18 @@ public class gameManager : MonoBehaviour
         updateCatPath1(catsList[0]);
         updateCatPath2(catsList[1]);
         deleteLeavingCustomers();
+
+        if (coffeeDone)
+        {
+            Debug.Log("Coffee Made!");
+            coffeeDone = false;
+        }
+        
+        if (tringToCheckout)
+        {
+            Debug.Log("Check out Time!");
+            tringToCheckout = false;
+        }
 
     }
 
