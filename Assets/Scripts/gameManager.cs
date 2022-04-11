@@ -15,6 +15,7 @@ public class gameManager : MonoBehaviour
     public bool buttonPressed = false;
 
     private List<GameObject> theLine;
+    private List<GameObject> DeleteCustomers;
     private List<Vector3> theLinePositons;
     private List<Vector3> ExitPath;
     
@@ -56,6 +57,7 @@ public class gameManager : MonoBehaviour
         CatPath1 = new List<Vector3>();
         CatPath2 = new List<Vector3>();
         catsList = new List<GameObject>();
+        DeleteCustomers = new List<GameObject>();
         
         theLinePositons.Add(Waypoints.transform.GetChild(4).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(3).transform.position);
@@ -95,12 +97,26 @@ public class gameManager : MonoBehaviour
             this.theLine.RemoveAt(0);
             
             leavingCustomer.GetComponent<prefabCustomer>().setTargetPosStack(ExitPath);
-            //leavingCustomer.transform.position = Vector3.Lerp(leavingCustomer.transform.position, ExitWaypoit.transform.position,Time.deltaTime * speed);
+            DeleteCustomers.Add(leavingCustomer);
         }
-
-        
     }
-    
+
+    private void deleteLeavingCustomers()
+    {
+        if (DeleteCustomers.Count > 0)
+        {
+            for (int i = 0; i < DeleteCustomers.Count; i++)
+            {
+                GameObject curr = DeleteCustomers[i];
+                if (curr.transform.position == Waypoints.transform.GetChild(7).transform.position)
+                {
+                    DeleteCustomers.Remove(curr);
+                    Destroy(curr);
+                }   
+            }    
+        }
+    }
+
     /* What do: Updates the customers position in the line
      * Input: Nothing
      * Output: Void
@@ -241,6 +257,7 @@ public class gameManager : MonoBehaviour
 
         updateCatPath1(catsList[0]);
         updateCatPath2(catsList[1]);
+        deleteLeavingCustomers();
 
     }
 
