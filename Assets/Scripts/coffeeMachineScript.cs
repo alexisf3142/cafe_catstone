@@ -7,13 +7,15 @@ public class coffeeMachineScript : MonoBehaviour
 {
     public GameObject MainManager;
     public GameObject Indicator;
+    public GameObject cup;
 
     private bool coffeeReady = false;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        hideCup();
+
     }
 
     // Update is called once per frame
@@ -24,10 +26,11 @@ public class coffeeMachineScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        MainManager.GetComponent<gameManager>().setCoffeeDone(true);
         if (coffeeReady)
         {
             Indicator.GetComponent<SpriteRenderer>().color = Color.white;
+            MainManager.GetComponent<gameManager>().setCoffeeDone(true);
+            hideCup();
             coffeeReady = false;
         }
         else
@@ -46,6 +49,16 @@ public class coffeeMachineScript : MonoBehaviour
     {
         Indicator.GetComponent<SpriteRenderer>().color = Color.red;
         StartCoroutine (Wait());
+        showCup();
+    }
+    
+    public void hideCup()
+    {
+        cup.GetComponent<SpriteRenderer>().sortingOrder = -1;
+    }
+    public void showCup()
+    {
+        cup.GetComponent<SpriteRenderer>().sortingOrder = 11;
     }
 
     

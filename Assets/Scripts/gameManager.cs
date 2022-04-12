@@ -6,6 +6,8 @@ using UnityEngine;
 public class gameManager : MonoBehaviour
 {
 
+    public GameObject Player;
+    
     public GameObject customerSpawnPrefab;
     public GameObject catPrefab1;
     public GameObject catPrefab2;
@@ -87,7 +89,15 @@ public class gameManager : MonoBehaviour
     public int numOfCustomer(){
         return theLine.Count;
     }
-    
+
+    public void checkOutCustomer()
+    {
+        RemoveFirstCustomerInLine();
+        updatePositions(); 
+        hidePlayerCup();
+        coffeeDone = false;
+    }
+
     /* What do: Removes the first person in line and sends them to the exit
      * Input: Nothing
      * Output: Void
@@ -236,6 +246,7 @@ public class gameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        hidePlayerCup();
         setUpLinesAndPaths();
         addCat(catPrefab1, CatPath1[2]);
         addCat(catPrefab1, CatPath2[3]);
@@ -250,6 +261,28 @@ public class gameManager : MonoBehaviour
     public void setTringToCheckout(bool stat)
     {
         this.tringToCheckout = stat;
+    }
+    
+    public void hidePlayerCup()
+    {
+        Player.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = -1;
+    }
+    
+    public void showPlayerCup()
+    {
+        Player.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = 11;
+    }
+
+    public bool isPlayerHoldingCup()
+    {
+        if (coffeeDone)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
 
@@ -274,8 +307,8 @@ public class gameManager : MonoBehaviour
 
         if (coffeeDone)
         {
-            Debug.Log("Coffee Made!");
-            coffeeDone = false;
+            //Debug.Log("Coffee Made!");
+            showPlayerCup();
         }
         
         if (tringToCheckout)

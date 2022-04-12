@@ -21,5 +21,9 @@ public class registerScript : MonoBehaviour
     private void OnMouseDown()
     {
         MainManager.GetComponent<gameManager>().setTringToCheckout(true);
+        if (MainManager.GetComponent<gameManager>().isPlayerHoldingCup() && MainManager.GetComponent<gameManager>().numOfCustomer() > 0)
+        {
+            MainManager.GetComponent<gameManager>().checkOutCustomer();
+        }
     }
 }
