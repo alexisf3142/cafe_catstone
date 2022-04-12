@@ -3478,6 +3478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Waypoints: {fileID: 131001782}
+  spillPrefab: {fileID: 2403118367524569664, guid: 0421813ea0c15f14eb3150e61d06aa24, type: 3}
 --- !u!1 &757218416
 GameObject:
   m_ObjectHideFlags: 0

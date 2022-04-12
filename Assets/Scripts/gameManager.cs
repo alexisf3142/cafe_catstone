@@ -295,11 +295,16 @@ public class gameManager : MonoBehaviour
             addCustomer();
             updatePositions();
         }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            GetComponent<SpillManager>().tryToClean(Player.transform.position);
+        }
+        /*
         if (Input.GetKeyDown(KeyCode.C))
         {
             RemoveFirstCustomerInLine();
             updatePositions();
-        }
+        }*/
 
         updateCatPath1(catsList[0]);
         updateCatPath2(catsList[1]);
