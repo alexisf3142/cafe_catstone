@@ -1,0 +1,3232 @@
+fileFormatVersion: 2
+guid: 78512321bd58e154a9ec663068f79477
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3819439549023342171
+    second: Tilemap_Everything_But_The_Kitchen_16x_0
+  - first:
+      213: -6470740074821840271
+    second: Tilemap_Everything_But_The_Kitchen_16x_1
+  - first:
+      213: 5905209762690009489
+    second: Tilemap_Everything_But_The_Kitchen_16x_2
+  - first:
+      213: 3502752330181699691
+    second: Tilemap_Everything_But_The_Kitchen_16x_3
+  - first:
+      213: 4547785830637737574
+    second: Tilemap_Everything_But_The_Kitchen_16x_4
+  - first:
+      213: -362658949020524088
+    second: Tilemap_Everything_But_The_Kitchen_16x_5
+  - first:
+      213: -6884318666698184474
+    second: Tilemap_Everything_But_The_Kitchen_16x_6
+  - first:
+      213: -4067543408642356291
+    second: Tilemap_Everything_But_The_Kitchen_16x_7
+  - first:
+      213: -7987009739965755171
+    second: Tilemap_Everything_But_The_Kitchen_16x_8
+  - first:
+      213: -7010022444905433571
+    second: Tilemap_Everything_But_The_Kitchen_16x_9
+  - first:
+      213: 434176195846728560
+    second: Tilemap_Everything_But_The_Kitchen_16x_10
+  - first:
+      213: -8459852881053514420
+    second: Tilemap_Everything_But_The_Kitchen_16x_11
+  - first:
+      213: -5018494259663246071
+    second: Tilemap_Everything_But_The_Kitchen_16x_12
+  - first:
+      213: -6121548366698305435
+    second: Tilemap_Everything_But_The_Kitchen_16x_13
+  - first:
+      213: -3746010469929521877
+    second: Tilemap_Everything_But_The_Kitchen_16x_14
+  - first:
+      213: -1156428694075770198
+    second: Tilemap_Everything_But_The_Kitchen_16x_15
+  - first:
+      213: 8649957227941903619
+    second: Tilemap_Everything_But_The_Kitchen_16x_16
+  - first:
+      213: 2425434745986425029
+    second: Tilemap_Everything_But_The_Kitchen_16x_17
+  - first:
+      213: -5762345717118663207
+    second: Tilemap_Everything_But_The_Kitchen_16x_18
+  - first:
+      213: -3549388849727792676
+    second: Tilemap_Everything_But_The_Kitchen_16x_19
+  - first:
+      213: -5769997804322133003
+    second: Tilemap_Everything_But_The_Kitchen_16x_20
+  - first:
+      213: -2795513466413624444
+    second: Tilemap_Everything_But_The_Kitchen_16x_21
+  - first:
+      213: -7244864973620985873
+    second: Tilemap_Everything_But_The_Kitchen_16x_22
+  - first:
+      213: 8279073540412280120
+    second: Tilemap_Everything_But_The_Kitchen_16x_23
+  - first:
+      213: -7093340447831655888
+    second: Tilemap_Everything_But_The_Kitchen_16x_24
+  - first:
+      213: -1988291350284909582
+    second: Tilemap_Everything_But_The_Kitchen_16x_25
+  - first:
+      213: -7449675779783744629
+    second: Tilemap_Everything_But_The_Kitchen_16x_26
+  - first:
+      213: -185084498484953901
+    second: Tilemap_Everything_But_The_Kitchen_16x_27
+  - first:
+      213: 6577664360600146872
+    second: Tilemap_Everything_But_The_Kitchen_16x_28
+  - first:
+      213: -8169188322910061599
+    second: Tilemap_Everything_But_The_Kitchen_16x_29
+  - first:
+      213: 8799110716568146243
+    second: Tilemap_Everything_But_The_Kitchen_16x_30
+  - first:
+      213: -363939537251736836
+    second: Tilemap_Everything_But_The_Kitchen_16x_31
+  - first:
+      213: -6540627123224515911
+    second: Tilemap_Everything_But_The_Kitchen_16x_32
+  - first:
+      213: -2966084815196357163
+    second: Tilemap_Everything_But_The_Kitchen_16x_33
+  - first:
+      213: -7784691887065168761
+    second: Tilemap_Everything_But_The_Kitchen_16x_34
+  - first:
+      213: 3804466305640005196
+    second: Tilemap_Everything_But_The_Kitchen_16x_35
+  - first:
+      213: 4742293963078596201
+    second: Tilemap_Everything_But_The_Kitchen_16x_36
+  - first:
+      213: 918630188441594038
+    second: Tilemap_Everything_But_The_Kitchen_16x_37
+  - first:
+      213: 2694931659211547991
+    second: Tilemap_Everything_But_The_Kitchen_16x_38
+  - first:
+      213: -2642715280422326737
+    second: Tilemap_Everything_But_The_Kitchen_16x_39
+  - first:
+      213: 7004674970880577826
+    second: Tilemap_Everything_But_The_Kitchen_16x_40
+  - first:
+      213: 4765904255979225516
+    second: Tilemap_Everything_But_The_Kitchen_16x_41
+  - first:
+      213: -4230753864448574337
+    second: Tilemap_Everything_But_The_Kitchen_16x_42
+  - first:
+      213: 5543260042745997022
+    second: Tilemap_Everything_But_The_Kitchen_16x_43
+  - first:
+      213: 4953782767824141965
+    second: Tilemap_Everything_But_The_Kitchen_16x_44
+  - first:
+      213: 5473859811188393132
+    second: Tilemap_Everything_But_The_Kitchen_16x_45
+  - first:
+      213: 7742596758809858985
+    second: Tilemap_Everything_But_The_Kitchen_16x_46
+  - first:
+      213: 7741611495076491321
+    second: Tilemap_Everything_But_The_Kitchen_16x_47
+  - first:
+      213: 4273349314453065250
+    second: Tilemap_Everything_But_The_Kitchen_16x_48
+  - first:
+      213: -4732227085412815199
+    second: Tilemap_Everything_But_The_Kitchen_16x_49
+  - first:
+      213: 4323122976064816688
+    second: Tilemap_Everything_But_The_Kitchen_16x_50
+  - first:
+      213: -5978277604930368569
+    second: Tilemap_Everything_But_The_Kitchen_16x_51
+  - first:
+      213: 2147151972505651575
+    second: Tilemap_Everything_But_The_Kitchen_16x_52
+  - first:
+      213: -4719064833641101896
+    second: Tilemap_Everything_But_The_Kitchen_16x_53
+  - first:
+      213: -3878187324747590261
+    second: Tilemap_Everything_But_The_Kitchen_16x_54
+  - first:
+      213: -1025730251730751093
+    second: Tilemap_Everything_But_The_Kitchen_16x_55
+  - first:
+      213: -2809340922107752190
+    second: Tilemap_Everything_But_The_Kitchen_16x_56
+  - first:
+      213: -7493670445075843110
+    second: Tilemap_Everything_But_The_Kitchen_16x_57
+  - first:
+      213: -4677307166796892997
+    second: Tilemap_Everything_But_The_Kitchen_16x_58
+  - first:
+      213: -4881671446606250746
+    second: Tilemap_Everything_But_The_Kitchen_16x_59
+  - first:
+      213: -6777547487628792571
+    second: Tilemap_Everything_But_The_Kitchen_16x_60
+  - first:
+      213: 4564396981511847340
+    second: Tilemap_Everything_But_The_Kitchen_16x_61
+  - first:
+      213: -648103013165459981
+    second: Tilemap_Everything_But_The_Kitchen_16x_62
+  - first:
+      213: -3806173400733077362
+    second: Tilemap_Everything_But_The_Kitchen_16x_63
+  - first:
+      213: -3701512999808010018
+    second: Tilemap_Everything_But_The_Kitchen_16x_64
+  - first:
+      213: 2174311190574199018
+    second: Tilemap_Everything_But_The_Kitchen_16x_65
+  - first:
+      213: -6457751383401514949
+    second: Tilemap_Everything_But_The_Kitchen_16x_66
+  - first:
+      213: 801380872238950697
+    second: Tilemap_Everything_But_The_Kitchen_16x_67
+  - first:
+      213: 6887571790762415516
+    second: Tilemap_Everything_But_The_Kitchen_16x_68
+  - first:
+      213: 1130216240039968851
+    second: Tilemap_Everything_But_The_Kitchen_16x_69
+  - first:
+      213: 759040045462001727
+    second: Tilemap_Everything_But_The_Kitchen_16x_70
+  - first:
+      213: 6584552575366268481
+    second: Tilemap_Everything_But_The_Kitchen_16x_71
+  - first:
+      213: -3614074685596171982
+    second: Tilemap_Everything_But_The_Kitchen_16x_72
+  - first:
+      213: -3631769242445524526
+    second: Tilemap_Everything_But_The_Kitchen_16x_73
+  - first:
+      213: 4303084815844568349
+    second: Tilemap_Everything_But_The_Kitchen_16x_74
+  - first:
+      213: 3549738341157088970
+    second: Tilemap_Everything_But_The_Kitchen_16x_75
+  - first:
+      213: 1091506037166752345
+    second: Tilemap_Everything_But_The_Kitchen_16x_76
+  - first:
+      213: -593993457879387494
+    second: Tilemap_Everything_But_The_Kitchen_16x_77
+  - first:
+      213: -4103509937952756080
+    second: Tilemap_Everything_But_The_Kitchen_16x_78
+  - first:
+      213: 7971153149521991162
+    second: Tilemap_Everything_But_The_Kitchen_16x_79
+  - first:
+      213: 2535466269945634854
+    second: Tilemap_Everything_But_The_Kitchen_16x_80
+  - first:
+      213: 2625011369462165214
+    second: Tilemap_Everything_But_The_Kitchen_16x_81
+  - first:
+      213: 8293267277855789836
+    second: Tilemap_Everything_But_The_Kitchen_16x_82
+  - first:
+      213: 360710711584075841
+    second: Tilemap_Everything_But_The_Kitchen_16x_83
+  - first:
+      213: 7867282172986082694
+    second: Tilemap_Everything_But_The_Kitchen_16x_84
+  - first:
+      213: -6764309874422463483
+    second: Tilemap_Everything_But_The_Kitchen_16x_85
+  - first:
+      213: 7288832390477627986
+    second: Tilemap_Everything_But_The_Kitchen_16x_86
+  - first:
+      213: -3865269604222097561
+    second: Tilemap_Everything_But_The_Kitchen_16x_87
+  - first:
+      213: -5881175328808835700
+    second: Tilemap_Everything_But_The_Kitchen_16x_88
+  - first:
+      213: -7368815386254399351
+    second: Tilemap_Everything_But_The_Kitchen_16x_89
+  - first:
+      213: -2490789330920252691
+    second: Tilemap_Everything_But_The_Kitchen_16x_90
+  - first:
+      213: -6497314673074499618
+    second: Tilemap_Everything_But_The_Kitchen_16x_91
+  - first:
+      213: 1652099899389660809
+    second: Tilemap_Everything_But_The_Kitchen_16x_92
+  - first:
+      213: -6042844012829070040
+    second: Tilemap_Everything_But_The_Kitchen_16x_93
+  - first:
+      213: 6802109555268608790
+    second: Tilemap_Everything_But_The_Kitchen_16x_94
+  - first:
+      213: -632514850419246943
+    second: Tilemap_Everything_But_The_Kitchen_16x_95
+  - first:
+      213: 3880950144616309698
+    second: Tilemap_Everything_But_The_Kitchen_16x_96
+  - first:
+      213: -6311946678366872091
+    second: Tilemap_Everything_But_The_Kitchen_16x_97
+  - first:
+      213: 1037599086558934401
+    second: Tilemap_Everything_But_The_Kitchen_16x_98
+  - first:
+      213: 6731703142599752809
+    second: Tilemap_Everything_But_The_Kitchen_16x_99
+  - first:
+      213: -3215457261602702907
+    second: Tilemap_Everything_But_The_Kitchen_16x_100
+  - first:
+      213: -2184710147649011502
+    second: Tilemap_Everything_But_The_Kitchen_16x_101
+  - first:
+      213: -7131350677443969743
+    second: Tilemap_Everything_But_The_Kitchen_16x_102
+  - first:
+      213: 2862313085972982596
+    second: Tilemap_Everything_But_The_Kitchen_16x_103
+  - first:
+      213: 5458933777310212676
+    second: Tilemap_Everything_But_The_Kitchen_16x_104
+  - first:
+      213: -6627675217479242526
+    second: Tilemap_Everything_But_The_Kitchen_16x_105
+  - first:
+      213: 4281187040167496332
+    second: Tilemap_Everything_But_The_Kitchen_16x_106
+  - first:
+      213: 2561757467738847885
+    second: Tilemap_Everything_But_The_Kitchen_16x_107
+  - first:
+      213: 4246306258109871082
+    second: Tilemap_Everything_But_The_Kitchen_16x_108
+  - first:
+      213: -8272698940251133397
+    second: Tilemap_Everything_But_The_Kitchen_16x_109
+  - first:
+      213: 9128238550382502134
+    second: Tilemap_Everything_But_The_Kitchen_16x_110
+  - first:
+      213: 3202387283714972720
+    second: Tilemap_Everything_But_The_Kitchen_16x_111
+  - first:
+      213: 4963804146095697760
+    second: Tilemap_Everything_But_The_Kitchen_16x_112
+  - first:
+      213: -2054266646175033784
+    second: Tilemap_Everything_But_The_Kitchen_16x_113
+  - first:
+      213: 6066430943121096322
+    second: Tilemap_Everything_But_The_Kitchen_16x_114
+  - first:
+      213: -7036371180133822412
+    second: Tilemap_Everything_But_The_Kitchen_16x_115
+  - first:
+      213: -6050811073837463587
+    second: Tilemap_Everything_But_The_Kitchen_16x_116
+  - first:
+      213: 4175980892433314515
+    second: Tilemap_Everything_But_The_Kitchen_16x_117
+  - first:
+      213: -2584484398068452516
+    second: Tilemap_Everything_But_The_Kitchen_16x_118
+  - first:
+      213: -2108562278264384470
+    second: Tilemap_Everything_But_The_Kitchen_16x_119
+  - first:
+      213: -7130616883653977317
+    second: Tilemap_Everything_But_The_Kitchen_16x_120
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e4d989800610530800000000000000
+      internalID: 3819439549023342171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1721c567f205336a0800000000000000
+      internalID: -6470740074821840271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1998e45fdf483f150800000000000000
+      internalID: 5905209762690009489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68e6a89fa64c9030800000000000000
+      internalID: 3502752330181699691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66697b52e1bfc1f30800000000000000
+      internalID: 4547785830637737574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1e3097b9397faf0800000000000000
+      internalID: -362658949020524088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e82dd6b5acf570a0800000000000000
+      internalID: -6884318666698184474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb046312de2d87c0800000000000000
+      internalID: -4067543408642356291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd091cf55f0782190800000000000000
+      internalID: -7987009739965755171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1675ef1ab567be90800000000000000
+      internalID: -7010022444905433571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bef5323f0860600800000000000000
+      internalID: 434176195846728560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c458dbc70a0989a80800000000000000
+      internalID: -8459852881053514420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d6f695f0aba5ab0800000000000000
+      internalID: -5018494259663246071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568239f9134eb0ba0800000000000000
+      internalID: -6121548366698305435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2de4f6235f730cc0800000000000000
+      internalID: -3746010469929521877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa7b81da3a83ffe0800000000000000
+      internalID: -1156428694075770198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dbcc5f442da0870800000000000000
+      internalID: 8649957227941903619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0296c0d00e8a120800000000000000
+      internalID: 2425434745986425029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5062ab9190800b0800000000000000
+      internalID: -5762345717118663207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd91e3a85a90ebec0800000000000000
+      internalID: -3549388849727792676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb68965199dcefa0800000000000000
+      internalID: -5769997804322133003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483589540575439d0800000000000000
+      internalID: -2795513466413624444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefb6a101b1157b90800000000000000
+      internalID: -7244864973620985873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d0c95458d25e270800000000000000
+      internalID: 8279073540412280120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a7510e1746f8d90800000000000000
+      internalID: -7093340447831655888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f349442d8b2864e0800000000000000
+      internalID: -1988291350284909582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83a82e295f6d9890800000000000000
+      internalID: -7449675779783744629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc7f5611a27e6df0800000000000000
+      internalID: -185084498484953901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b39151d2ee884b50800000000000000
+      internalID: 6577664360600146872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb3da5a08631ae80800000000000000
+      internalID: -8169188322910061599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_30
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3419068b398bc1a70800000000000000
+      internalID: 8799110716568146243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2e36a4be603faf0800000000000000
+      internalID: -363939537251736836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baeaeff8460b35a0800000000000000
+      internalID: -6540627123224515911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd7a88539956d6d0800000000000000
+      internalID: -2966084815196357163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7848d9949f737f390800000000000000
+      internalID: -7784691887065168761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e7d93b2fd2cc430800000000000000
+      internalID: 3804466305640005196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96677c1db3300d140800000000000000
+      internalID: 4742293963078596201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8e20e0a41afbc00800000000000000
+      internalID: 918630188441594038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7552241d012566520800000000000000
+      internalID: 2694931659211547991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e2ee34470335bd0800000000000000
+      internalID: -2642715280422326737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221186e06ca953160800000000000000
+      internalID: 7004674970880577826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca10a238ba4e32240800000000000000
+      internalID: 4765904255979225516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c7e6996c75945c0800000000000000
+      internalID: -4230753864448574337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6ed71b3ad9dec40800000000000000
+      internalID: 5543260042745997022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8efb9a5e2f5fb440800000000000000
+      internalID: 4953782767824141965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4cb2c1f7e07fb40800000000000000
+      internalID: 5473859811188393132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3d3f7eaba337b60800000000000000
+      internalID: 7742596758809858985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9307d1153aabf6b60800000000000000
+      internalID: 7741611495076491321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e42217f8cfd4b30800000000000000
+      internalID: 4273349314453065250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aeac79c980c35eb0800000000000000
+      internalID: -4732227085412815199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_50
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0364cac1171defb30800000000000000
+      internalID: 4323122976064816688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: -4}
+        - {x: 5, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -4}
+        - {x: 5, y: -4}
+      - - {x: 6, y: 8}
+        - {x: 6, y: 3}
+        - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 8, y: 2}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbc37d4134e80da0800000000000000
+      internalID: -5978277604930368569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_52
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7798af7c7573ccd10800000000000000
+      internalID: 2147151972505651575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5c8c65983828eb0800000000000000
+      internalID: -4719064833641101896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b855ff7fc29ed2ac0800000000000000
+      internalID: -3878187324747590261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81773645cfd3c1f0800000000000000
+      internalID: -1025730251730751093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_56
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2019cccd0573309d0800000000000000
+      internalID: -2809340922107752190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad73961fe62210890800000000000000
+      internalID: -7493670445075843110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_58
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4bea9c9edd61fb0800000000000000
+      internalID: -4677307166796892997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dfddafea1d04cb0800000000000000
+      internalID: -4881671446606250746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_60
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d6b8f087051f1a0800000000000000
+      internalID: -6777547487628792571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadf0e81fdef75f30800000000000000
+      internalID: 4564396981511847340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_62
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5996a4eb97107f0800000000000000
+      internalID: -648103013165459981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_63
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 8}
+        - {x: 5, y: -6}
+        - {x: 6, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80b3cf3571cd2bc0800000000000000
+      internalID: -3806173400733077362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8f3f2c98591acc0800000000000000
+      internalID: -3701512999808010018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_65
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -7}
+        - {x: 4, y: -7}
+        - {x: 5, y: -6}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0f4510284bc2e10800000000000000
+      internalID: 2174311190574199018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: -5}
+        - {x: -4, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -1}
+        - {x: 3, y: -1}
+        - {x: 1, y: -2}
+        - {x: -1, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38b098d4557166a0800000000000000
+      internalID: -6457751383401514949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_67
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 3, y: -8}
+        - {x: 2, y: -5}
+        - {x: 0, y: -3}
+        - {x: -2, y: -2}
+        - {x: -4, y: -1}
+        - {x: -8, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929689b48a31f1b00800000000000000
+      internalID: 801380872238950697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9515614d02959f50800000000000000
+      internalID: 6887571790762415516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_69
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350c5f2aea55faf00800000000000000
+      internalID: 1130216240039968851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_70
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f381f0856e6a88a00800000000000000
+      internalID: 759040045462001727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_71
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146079b4ea7016b50800000000000000
+      internalID: 6584552575366268481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_72
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2310f4db83a38ddc0800000000000000
+      internalID: -3614074685596171982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: -4, y: -3}
+        - {x: -5, y: -3}
+        - {x: -5, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 0, y: -5}
+        - {x: 0, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -3}
+        - {x: -2, y: -3}
+        - {x: -2, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d158ddad1d599dc0800000000000000
+      internalID: -3631769242445524526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -5}
+        - {x: -8, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1deace57d0a7bb30800000000000000
+      internalID: 4303084815844568349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acea046c634334130800000000000000
+      internalID: 3549738341157088970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952c48f25fec52f00800000000000000
+      internalID: 1091506037166752345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a927130e816b1c7f0800000000000000
+      internalID: -593993457879387494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 3}
+        - {x: 1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e6a08e3776d07c0800000000000000
+      internalID: -4103509937952756080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: 7}
+        - {x: 4, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af59e777e893f9e60800000000000000
+      internalID: 7971153149521991162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 8}
+        - {x: -4, y: 3}
+        - {x: 2, y: -2}
+        - {x: 8, y: -2}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62028189329cf2320800000000000000
+      internalID: 2535466269945634854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -2}
+        - {x: -3, y: -2}
+        - {x: -1, y: -1}
+        - {x: 3, y: 3}
+        - {x: 3, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede6720cee9ed6420800000000000000
+      internalID: 2625011369462165214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_82
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0317fb46aa971370800000000000000
+      internalID: 8293267277855789836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_83
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140b5a62b70810500800000000000000
+      internalID: 360710711584075841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685499424733e2d60800000000000000
+      internalID: 7867282172986082694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504c16012085022a0800000000000000
+      internalID: -6764309874422463483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252c7c5f072272560800000000000000
+      internalID: 7288832390477627986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -5, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7672a3726cdcb5ac0800000000000000
+      internalID: -3865269604222097561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_88
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85ee80c23ed16ea0800000000000000
+      internalID: -5881175328808835700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988afd6a275bcb990800000000000000
+      internalID: -7368815386254399351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_90
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea5a20ec40fe6dd0800000000000000
+      internalID: -2490789330920252691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf0675aab6e4d5a0800000000000000
+      internalID: -6497314673074499618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_92
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 8}
+        - {x: 1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e4494fa107de610800000000000000
+      internalID: 1652099899389660809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_93
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d2a3ef261832ca0800000000000000
+      internalID: -6042844012829070040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_94
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6136315f992f56e50800000000000000
+      internalID: 6802109555268608790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_95
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8f991481bd837f0800000000000000
+      internalID: -632514850419246943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_96
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c32bd82897ebd530800000000000000
+      internalID: 3880950144616309698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: -5, y: -8}
+        - {x: -2, y: -8}
+        - {x: 1, y: -5}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed5cba20f57768a0800000000000000
+      internalID: -6311946678366872091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -5, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1857d9d2fda466e00800000000000000
+      internalID: 1037599086558934401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_99
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -8}
+        - {x: 1, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cf9049750db6d50800000000000000
+      internalID: 6731703142599752809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_100
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c978b328a66063d0800000000000000
+      internalID: -3215457261602702907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_101
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0803022b95ea1e0800000000000000
+      internalID: -2184710147649011502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_102
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13df536a75a580d90800000000000000
+      internalID: -7131350677443969743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_103
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 8}
+        - {x: 1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b2f55269af8b720800000000000000
+      internalID: 2862313085972982596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_104
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442e4f8095702cb40800000000000000
+      internalID: 5458933777310212676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_105
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -5, y: -5}
+        - {x: 5, y: -5}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec6d7f2184c504a0800000000000000
+      internalID: -6627675217479242526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_106
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -7}
+        - {x: 3, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 6, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a803a2ee4d96b30800000000000000
+      internalID: 4281187040167496332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_107
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 4, y: -7}
+        - {x: 0, y: -5}
+        - {x: -8, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a374918d03d8320800000000000000
+      internalID: 2561757467738847885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 7}
+        - {x: -7, y: 5}
+        - {x: -7, y: -4}
+        - {x: -5, y: -6}
+        - {x: 4, y: -6}
+        - {x: 6, y: -4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3382a3b09edea30800000000000000
+      internalID: 4246306258109871082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -5, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 3}
+        - {x: 8, y: 3}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2aa49cf428713d80800000000000000
+      internalID: -8272698940251133397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 3}
+        - {x: -2, y: 3}
+        - {x: -2, y: 2}
+        - {x: 0, y: 2}
+        - {x: 0, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0639c19940eae70800000000000000
+      internalID: 9128238550382502134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c1f0f744a217c20800000000000000
+      internalID: 3202387283714972720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_112
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f25ae4299f2e440800000000000000
+      internalID: 4963804146095697760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846ddc88e57cd73e0800000000000000
+      internalID: -2054266646175033784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_114
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 8}
+        - {x: 1, y: 2}
+        - {x: 1, y: -4}
+        - {x: 3, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ebb2b2dca403450800000000000000
+      internalID: 6066430943121096322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_115
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 7, y: -8}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430d35421b9c95e90800000000000000
+      internalID: -7036371180133822412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_116
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd70bec0363370ca0800000000000000
+      internalID: -6050811073837463587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_117
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 8}
+        - {x: 1, y: 5}
+        - {x: 1, y: -1}
+        - {x: 5, y: -5}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d27e421f7014f930800000000000000
+      internalID: 4175980892433314515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_118
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: 1, y: -6}
+        - {x: 3, y: -5}
+        - {x: 7, y: -1}
+        - {x: 7, y: 5}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5337951221122cd0800000000000000
+      internalID: -2584484398068452516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_119
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 8}
+        - {x: 5, y: 6}
+        - {x: 5, y: 0}
+        - {x: 8, y: -4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24534197c1ecb2e0800000000000000
+      internalID: -2108562278264384470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Everything_But_The_Kitchen_16x_120
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -4}
+        - {x: 0, y: -4}
+        - {x: 3, y: 0}
+        - {x: 3, y: 6}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bd66459b5fa0d90800000000000000
+      internalID: -7130616883653977317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
