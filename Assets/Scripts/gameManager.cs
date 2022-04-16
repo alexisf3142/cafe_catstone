@@ -64,10 +64,12 @@ public class gameManager : MonoBehaviour
         catsList = new List<GameObject>();
         DeleteCustomers = new List<GameObject>();
         
+        
         theLinePositons.Add(Waypoints.transform.GetChild(4).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(3).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(2).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(1).transform.position);
+        theLinePositons.Add(Waypoints.transform.GetChild(8).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(0).transform.position);
 
         ExitPath.Add(Waypoints.transform.GetChild(7).transform.position);
