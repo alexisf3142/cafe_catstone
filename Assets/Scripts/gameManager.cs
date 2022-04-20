@@ -27,6 +27,8 @@ public class gameManager : MonoBehaviour
     private List<GameObject> catsList;
     private List<Vector3> CatPath1;
     private List<Vector3> CatPath2;
+    
+    public GameObject ProfitTracker;
 
     public float speed = 0.5f;
     
@@ -97,6 +99,7 @@ public class gameManager : MonoBehaviour
         RemoveFirstCustomerInLine();
         updatePositions(); 
         hidePlayerCup();
+        ProfitTracker.GetComponent<ProfitsTracker>().addToProfits(5f);
         coffeeDone = false;
     }
 
