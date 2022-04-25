@@ -69,6 +69,7 @@ public class prefabCustomer : MonoBehaviour
         {
             movingStack.Push(targetList[i]);
         }*/
+        movingStack = new Stack<Vector3>();
 
         for (int i = 0; i < targetList.Count; i++)
         {

@@ -3040,6 +3040,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 1523612618}
   customerSpawnPrefab: {fileID: 876419930163933, guid: 4c71f7f52fbffb24797c7703c226eaf7, type: 3}
+  customerSpawnPrefab2: {fileID: 379275092694491849, guid: 49de2756d52ad13449c71a85f2504c9c, type: 3}
+  customerSpawnPrefab3: {fileID: 1120390446414153941, guid: 4e2eeb8b129bb174d90201ba57e6aade, type: 3}
   catPrefab1: {fileID: 8362870630145265206, guid: 868ced2bf72287c4290bf43ab0ab3de9, type: 3}
   catPrefab2: {fileID: 8362870630145265206, guid: 868ced2bf72287c4290bf43ab0ab3de9, type: 3}
   Waypoints: {fileID: 437694575}
