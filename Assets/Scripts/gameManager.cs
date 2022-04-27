@@ -9,6 +9,9 @@ public class gameManager : MonoBehaviour
     public GameObject Player;
     
     public GameObject customerSpawnPrefab;
+    public GameObject customerSpawnPrefab2;
+    public GameObject customerSpawnPrefab3;
+    private List<GameObject> customerSpawnPrefabList;
     public GameObject catPrefab1;
     public GameObject catPrefab2;
     [SerializeField]
@@ -40,7 +43,8 @@ public class gameManager : MonoBehaviour
      */
     void addCustomer()
     {
-        GameObject currCustomer = Instantiate(customerSpawnPrefab, Waypoints.transform.GetChild(0).transform.position, transform.rotation);
+        //add random things here
+        GameObject currCustomer = Instantiate(customerSpawnPrefabList[UnityEngine.Random.Range(0,3)], Waypoints.transform.GetChild(0).transform.position, transform.rotation);
         theLine.Add(currCustomer);
     }
     
@@ -65,18 +69,19 @@ public class gameManager : MonoBehaviour
         CatPath2 = new List<Vector3>();
         catsList = new List<GameObject>();
         DeleteCustomers = new List<GameObject>();
+        customerSpawnPrefabList = new List<GameObject>();
         
         
+        theLinePositons.Add(Waypoints.transform.GetChild(5).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(4).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(3).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(2).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(1).transform.position);
-        theLinePositons.Add(Waypoints.transform.GetChild(8).transform.position);
         theLinePositons.Add(Waypoints.transform.GetChild(0).transform.position);
 
+        ExitPath.Add(Waypoints.transform.GetChild(8).transform.position);
         ExitPath.Add(Waypoints.transform.GetChild(7).transform.position);
         ExitPath.Add(Waypoints.transform.GetChild(6).transform.position);
-        ExitPath.Add(Waypoints.transform.GetChild(5).transform.position);
         
         CatPath1.Add(WaypointsForCats.transform.GetChild(0).transform.position);
         CatPath1.Add(WaypointsForCats.transform.GetChild(1).transform.position);
@@ -86,6 +91,10 @@ public class gameManager : MonoBehaviour
         CatPath2.Add(WaypointsForCats.transform.GetChild(4).transform.position);
         CatPath2.Add(WaypointsForCats.transform.GetChild(5).transform.position);
         CatPath2.Add(WaypointsForCats.transform.GetChild(6).transform.position);
+        
+        customerSpawnPrefabList.Add(customerSpawnPrefab);
+        customerSpawnPrefabList.Add(customerSpawnPrefab2);
+        customerSpawnPrefabList.Add(customerSpawnPrefab3);
     }
     
 
@@ -126,7 +135,7 @@ public class gameManager : MonoBehaviour
             for (int i = 0; i < DeleteCustomers.Count; i++)
             {
                 GameObject curr = DeleteCustomers[i];
-                if (curr.transform.position == Waypoints.transform.GetChild(7).transform.position)
+                if (curr.transform.position == Waypoints.transform.GetChild(8).transform.position)
                 {
                     DeleteCustomers.Remove(curr);
                     Destroy(curr);
@@ -150,7 +159,7 @@ public class gameManager : MonoBehaviour
                 {
                     Debug.Log("Just Spawned");
                     List<Vector3> subPath = new List<Vector3>();
-                    int spotTarget = 4;
+                    int spotTarget = 5;
                     Debug.Log(spotTarget); 
                     //this is not creating the correct path, it is the same each time
                     for (int j = i; j < spotTarget; j++)
@@ -294,7 +303,7 @@ public class gameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
         if (Input.GetKeyDown(KeyCode.X) && this.theLine.Count < 5)
         {
             addCustomer();
@@ -304,12 +313,12 @@ public class gameManager : MonoBehaviour
         {
             GetComponent<SpillManager>().tryToClean(Player.transform.position);
         }
-        /*
+        
         if (Input.GetKeyDown(KeyCode.C))
         {
             RemoveFirstCustomerInLine();
             updatePositions();
-        }*/
+        }
 
         updateCatPath1(catsList[0]);
         updateCatPath2(catsList[1]);
