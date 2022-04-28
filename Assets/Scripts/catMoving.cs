@@ -26,14 +26,16 @@ public class catMoving : MonoBehaviour
     {
         if (transform.position == this.targetPos)
         {
-            animator.SetFloat("Horizontal", 0);
-            animator.SetFloat("Vertical", 0);
+            animator.SetFloat("horizontal", 0);
+            animator.SetFloat("vertical", 0);
+            animator.SetFloat("speed", 0);
         }
         else
         {
-            Vector3 dir = (this.transform.position - targetPos).normalized;
+            Vector3 dir = (targetPos - this.transform.position).normalized;
             animator.SetFloat("horizontal", dir.x);
             animator.SetFloat("vertical", dir.y);
+            animator.SetFloat("speed", 1);
         }
     }
     
