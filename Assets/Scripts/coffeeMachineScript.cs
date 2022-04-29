@@ -10,6 +10,7 @@ public class coffeeMachineScript : MonoBehaviour
     public GameObject cup;
 
     private bool coffeeReady = false;
+    public Animator animator;
     
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class coffeeMachineScript : MonoBehaviour
             MainManager.GetComponent<gameManager>().setCoffeeDone(true);
             hideCup();
             coffeeReady = false;
+            animator.SetBool("Finished",false);
         }
         else
         {
@@ -44,12 +46,16 @@ public class coffeeMachineScript : MonoBehaviour
         yield return new WaitForSeconds(5);
         Indicator.GetComponent<SpriteRenderer>().color = Color.green;
         coffeeReady = true;
+        animator.SetBool("Running", false);
+        animator.SetBool("Finished", true);
     }
     private void makeCoffee()
     {
         Indicator.GetComponent<SpriteRenderer>().color = Color.red;
         StartCoroutine (Wait());
         showCup();
+        animator.SetBool("Running",true);
+        
     }
     
     public void hideCup()

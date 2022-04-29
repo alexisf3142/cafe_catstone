@@ -32,6 +32,7 @@ public class gameManager : MonoBehaviour
     private List<Vector3> CatPath2;
     
     public GameObject ProfitTracker;
+    public Animator animator;
 
     public float speed = 0.5f;
     
@@ -280,11 +281,13 @@ public class gameManager : MonoBehaviour
     public void hidePlayerCup()
     {
         Player.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = -1;
+        animator.SetBool("Holding", false);
     }
     
     public void showPlayerCup()
     {
         Player.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = 11;
+        animator.SetBool("Holding", true);
     }
 
     public bool isPlayerHoldingCup()
@@ -292,6 +295,7 @@ public class gameManager : MonoBehaviour
         if (coffeeDone)
         {
             return true;
+            
         }
         else
         {

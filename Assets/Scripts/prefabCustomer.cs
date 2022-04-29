@@ -10,10 +10,12 @@ public class prefabCustomer : MonoBehaviour
     private bool orderStatus;
     private int placeInLine; // add this in later
     private Vector3 targetPos;
+    public Vector3 direction;
     public float speed = 1.0f;
     private List<string> orderList = new List<string>();
     private Stack<Vector3> movingStack = new Stack<Vector3>();
-    
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,8 +46,25 @@ public class prefabCustomer : MonoBehaviour
             }   
         }
         transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
+        updateAnimations();
     }
 
+    void updateAnimations()
+    {
+        if (transform.position == this.targetPos)
+        {
+            animator.SetFloat("Horizontal", 0);
+            animator.SetFloat("Vertical", 0);
+            animator.SetFloat("Speed", 0);
+        }
+        else
+        {
+            Vector3 dir = (targetPos - this.transform.position).normalized;
+            animator.SetFloat("Horizontal", dir.x);
+            animator.SetFloat("Vertical", dir.y);
+            animator.SetFloat("Speed", 1);
+        }
+    }
     public bool getOrderStatus (){
         return this.orderStatus;
     }

@@ -561,7 +561,7 @@ RectTransform:
   m_GameObject: {fileID: 81081282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 5, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 981237921}
   m_Father: {fileID: 999339473}
@@ -3048,6 +3048,7 @@ MonoBehaviour:
   WaypointsForCats: {fileID: 631585636}
   buttonPressed: 0
   ProfitTracker: {fileID: 1081144610}
+  animator: {fileID: 1523612619}
   speed: 0.5
 --- !u!114 &643942649
 MonoBehaviour:
@@ -5158,7 +5159,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -6648,6 +6649,7 @@ GameObject:
   - component: {fileID: 1013971673}
   - component: {fileID: 1013971672}
   - component: {fileID: 1013971675}
+  - component: {fileID: 1013971676}
   m_Layer: 0
   m_Name: CoffeeMachine
   m_TagString: Untagged
@@ -6721,7 +6723,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: -7580284419996508204, guid: 34ae2e08571955a40ad16f5d20373d2c, type: 3}
+  m_Sprite: {fileID: 5268092930046860563, guid: 06c6c699761e5ea448feca13afacddde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6763,6 +6765,26 @@ MonoBehaviour:
   MainManager: {fileID: 643942644}
   Indicator: {fileID: 1607961681}
   cup: {fileID: 2034213969}
+  animator: {fileID: 1013971676}
+--- !u!95 &1013971676
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013971671}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6406fb40064023140bdd22d823563810, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1047891916
 GameObject:
   m_ObjectHideFlags: 0
@@ -6812,7 +6834,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1, y: 1.125}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6861,7 +6883,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: -3684482388448562083, guid: 34ae2e08571955a40ad16f5d20373d2c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6881,7 +6903,7 @@ Transform:
   m_GameObject: {fileID: 1047891916}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.4778, y: 0.3534, z: 0}
-  m_LocalScale: {x: 0.77160835, y: 0.77169055, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -9275,7 +9297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1607961682
 SpriteRenderer:
   m_ObjectHideFlags: 0
