@@ -21,7 +21,7 @@ public class SpillManager : MonoBehaviour
         spillPositions.Add(Waypoints.transform.GetChild(2).transform.position);
         spillPositions.Add(Waypoints.transform.GetChild(3).transform.position);
         spillPositions.Add(Waypoints.transform.GetChild(4).transform.position);
-        StartCoroutine (Wait());
+        //StartCoroutine (Wait());
     }
 
     // Update is called once per frame
@@ -37,6 +37,13 @@ public class SpillManager : MonoBehaviour
         Vector3 randSpot = spillPositions[num];
         spills.Add(Instantiate(spillPrefab, randSpot, transform.rotation));
         Debug.Log("SPAWNSPILL"); 
+    }
+    
+    public void  SpillCoffee()
+    {
+        int num = Random.Range(0, 5);
+        Vector3 randSpot = spillPositions[num];
+        spills.Add(Instantiate(spillPrefab, randSpot, transform.rotation));
     }
 
     public void tryToClean(Vector3 playerPos)

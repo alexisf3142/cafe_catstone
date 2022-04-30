@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class gameManager : MonoBehaviour
 {
@@ -302,12 +303,38 @@ public class gameManager : MonoBehaviour
             return false;
         }
     }
-
+    
+    //run Event
+    private bool waitingForEvent = false;
+    IEnumerator  Wait()
+    {
+        yield return new WaitForSeconds(15);
+        Debug.Log("------------------Event!--------------------");
+        int determineEvent = UnityEngine.Random.RandomRange(0, 2);
+        if (determineEvent == 0)
+        {
+            //add customer
+            addCustomer();
+            updatePositions();
+        }
+        else
+        {
+            //add spill
+            GetComponent<SpillManager>().SpillCoffee();   
+        }
+        waitingForEvent = false;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (!waitingForEvent)
+        {
+            waitingForEvent = true;
+            StartCoroutine (Wait());
+        }
+
+
         if (Input.GetKeyDown(KeyCode.X) && this.theLine.Count < 5)
         {
             addCustomer();
