@@ -80,6 +80,7 @@ public class gameManager : MonoBehaviour
     void addCat(GameObject cat, Vector3 spawn)
     {
         GameObject currCat= Instantiate(cat, spawn, transform.rotation);
+        currCat.GetComponent<catMoving>().setPlayer(Player);
         catsList.Add(currCat);
         currCat.GetComponent<catMoving>().setTargetPos(spawn);
     }

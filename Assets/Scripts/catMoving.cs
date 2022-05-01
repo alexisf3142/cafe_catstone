@@ -10,6 +10,10 @@ public class catMoving : MonoBehaviour
     public Animator animator;
     public GameObject player;
     public AudioSource audioSource;
+    public AudioClip CatSound1;
+    public AudioClip CatSound2;
+    public AudioClip CatSound3;
+    public AudioClip CatSound4;
     
     // Start is called before the first frame update
     void Start()
@@ -17,12 +21,20 @@ public class catMoving : MonoBehaviour
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
     }
-    
+
+    public void setPlayer(GameObject player)
+    {
+        this.player = player;
+    }
+
 
     // Update is called once per frame
     void Update()
     {
-        tryCatNoise();
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            tryCatNoise();
+        }
     }
 
     private void tryCatNoise()
@@ -30,7 +42,27 @@ public class catMoving : MonoBehaviour
         float distance = Vector3.Distance(player.transform.position, transform.position);
         if (distance < 1.5f)
         {
-            audioSource.Play();
+            int chooseSound = Random.Range(0, 4);
+            if (chooseSound == 0)
+            {
+                audioSource.clip = CatSound1;
+                audioSource.Play();
+            }
+            if (chooseSound == 1)
+            {
+                audioSource.clip = CatSound2;
+                audioSource.Play();
+            }
+            if (chooseSound == 2)
+            {
+                audioSource.clip = CatSound3;
+                audioSource.Play();
+            }
+            if (chooseSound == 3)
+            {
+                audioSource.clip = CatSound4;
+                audioSource.Play();
+            }
         }
     }
 
