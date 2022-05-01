@@ -16,7 +16,7 @@ public class registerScript : MonoBehaviour
     private bool tryToInteractWithRegister()
     {
         float distance = Vector3.Distance(player.transform.position, transform.position);
-        if (distance < 2f)
+        if (distance < 1.3f)
         {
             MainManager.GetComponent<gameManager>().setTringToCheckout(true);
             if (MainManager.GetComponent<gameManager>().isPlayerHoldingCup() && MainManager.GetComponent<gameManager>().numOfCustomer() > 0)

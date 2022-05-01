@@ -56,7 +56,7 @@ public class SpillManager : MonoBehaviour
             for (int i = 0; i < spills.Count; i++)
             {
                 float distance = Vector3.Distance(playerPos, spills[i].transform.position);
-                if (distance < 2f)
+                if (distance < 1f)
                 {
                     GameObject currSpill = spills[i];
                     spills.Remove(currSpill);

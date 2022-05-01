@@ -26,7 +26,7 @@ public class coffeeMachineScript : MonoBehaviour
     public bool tryToInteractWithCoffeeMachine()
     {
         float distance = Vector3.Distance(player.transform.position, transform.position);
-        if (distance < 2f)
+        if (distance < 1.5f)
         {
             if (coffeeReady)
             {

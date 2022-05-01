@@ -8,20 +8,32 @@ public class catMoving : MonoBehaviour
     private Vector3 targetPos;
     public float speed = 1.0f;
     public Animator animator;
+    public GameObject player;
+    public AudioSource audioSource;
     
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
     
 
     // Update is called once per frame
     void Update()
     {
-        
+        tryCatNoise();
     }
-    
+
+    private void tryCatNoise()
+    {
+        float distance = Vector3.Distance(player.transform.position, transform.position);
+        if (distance < 1.5f)
+        {
+            audioSource.Play();
+        }
+    }
+
     void updateAnimations()
     {
         if (transform.position == this.targetPos)
