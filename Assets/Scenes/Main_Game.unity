@@ -3456,6 +3456,7 @@ MonoBehaviour:
   CashRegister: {fileID: 8300000, guid: 1a6aff33cea95a047b48a21df38c0f22, type: 3}
   DoorSound: {fileID: 8300000, guid: 63306c095c987bf4ea651bf6b98358c8, type: 3}
   SpillSound: {fileID: 8300000, guid: 7694b438d69e05c40ba0eaaece227a9e, type: 3}
+  MopSound: {fileID: 8300000, guid: 5c184ff19ab7a4a4cbcb82a172c09439, type: 3}
 --- !u!114 &643942649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7009,6 +7010,7 @@ GameObject:
   - component: {fileID: 1013971672}
   - component: {fileID: 1013971675}
   - component: {fileID: 1013971676}
+  - component: {fileID: 1013971677}
   m_Layer: 0
   m_Name: CoffeeMachine
   m_TagString: Untagged
@@ -7125,6 +7127,8 @@ MonoBehaviour:
   Indicator: {fileID: 1607961681}
   cup: {fileID: 2034213969}
   animator: {fileID: 1013971676}
+  player: {fileID: 1523612618}
+  audioSource: {fileID: 0}
 --- !u!95 &1013971676
 Animator:
   serializedVersion: 3
@@ -7144,6 +7148,102 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!82 &1013971677
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013971671}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4179434648d2b7d4882c80d3a751af5c, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1047891916
 GameObject:
   m_ObjectHideFlags: 0
@@ -7176,6 +7276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainManager: {fileID: 643942644}
+  player: {fileID: 1523612618}
 --- !u!61 &1047891918
 BoxCollider2D:
   m_ObjectHideFlags: 0

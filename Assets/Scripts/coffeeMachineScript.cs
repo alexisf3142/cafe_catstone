@@ -11,20 +11,51 @@ public class coffeeMachineScript : MonoBehaviour
 
     private bool coffeeReady = false;
     public Animator animator;
-    
+
+    public GameObject player;
+    public AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
         hideCup();
+        audioSource = GetComponent<AudioSource>();
 
+    }
+
+    public bool tryToInteractWithCoffeeMachine()
+    {
+        float distance = Vector3.Distance(player.transform.position, transform.position);
+        if (distance < 2f)
+        {
+            if (coffeeReady)
+            {
+                Indicator.GetComponent<SpriteRenderer>().color = Color.white;
+                MainManager.GetComponent<gameManager>().setCoffeeDone(true);
+                hideCup();
+                coffeeReady = false;
+                animator.SetBool("Finished",false);
+            }
+            else
+            {
+                makeCoffee();
+            }
+            return true;
+        }
+
+        return false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            tryToInteractWithCoffeeMachine();
 
+        }
+    }
+    
     private void OnMouseDown()
     {
         if (coffeeReady)
@@ -51,6 +82,7 @@ public class coffeeMachineScript : MonoBehaviour
     }
     private void makeCoffee()
     {
+        audioSource.Play();
         Indicator.GetComponent<SpriteRenderer>().color = Color.red;
         StartCoroutine (Wait());
         showCup();

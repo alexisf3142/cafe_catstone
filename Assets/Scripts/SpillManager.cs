@@ -46,7 +46,7 @@ public class SpillManager : MonoBehaviour
         spills.Add(Instantiate(spillPrefab, randSpot, transform.rotation));
     }
 
-    public void tryToClean(Vector3 playerPos)
+    public bool tryToClean(Vector3 playerPos)
     {
         if (spills.Count > 0)
         {
@@ -58,8 +58,11 @@ public class SpillManager : MonoBehaviour
                     GameObject currSpill = spills[i];
                     spills.Remove(currSpill);
                     Destroy(currSpill);
+                    return true;
                 }
             }
         }
+
+        return false;
     }
 }

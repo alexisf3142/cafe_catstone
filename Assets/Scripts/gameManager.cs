@@ -42,6 +42,7 @@ public class gameManager : MonoBehaviour
     public AudioClip CashRegister;
     public AudioClip DoorSound;
     public AudioClip SpillSound;
+    public AudioClip MopSound;
     
     
 
@@ -356,7 +357,12 @@ public class gameManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
-            GetComponent<SpillManager>().tryToClean(Player.transform.position);
+            if (GetComponent<SpillManager>().tryToClean(Player.transform.position))
+            {
+                audioSource.clip = MopSound;
+                audioSource.Play();
+            }
+            
         }
         
         if (Input.GetKeyDown(KeyCode.C))
