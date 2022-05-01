@@ -12,6 +12,9 @@ public class MainManager : MonoBehaviour
     private bool newGame;
     
     private PlayerData playerData;
+
+    [SerializeField]
+    public GameObject totalText;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,5 +57,14 @@ public class MainManager : MonoBehaviour
     {
         playerData = new PlayerData(name, 0, 0);
     }
+
+    public void savePlayerData()
+    {
+        double total = totalText.GetComponent<ProfitsTracker>().getTotalProfit();
+        playerData.updateTotal(total);
+        jsonSaving.SaveData(playerData);
+    }
+
     
+
 }

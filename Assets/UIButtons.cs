@@ -3,10 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.SceneManagement;
+
 public class UIButtons : MonoBehaviour
 {
     public GameObject settingsMenu;
     private bool settingsOnScreen;
+    public GameObject MainManager;
 
     private void Start()
     {
@@ -27,5 +30,15 @@ public class UIButtons : MonoBehaviour
             settingsMenu.SetActive(true);
             settingsOnScreen = true;
         }
+    }
+
+    public void saveTotal()
+    {
+        MainManager.GetComponent<MainManager>().savePlayerData();
+    }
+    
+    public void ExitGame()
+    {
+        SceneManager.LoadScene(0); 
     }
 }

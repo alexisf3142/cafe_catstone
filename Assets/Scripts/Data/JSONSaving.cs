@@ -8,6 +8,7 @@ public class JSONSaving : MonoBehaviour
     private string path = "";
     private string persistentPath = "";
     
+    
     // Start is called before the first frame update
     void Start()
     {

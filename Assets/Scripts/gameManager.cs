@@ -43,8 +43,8 @@ public class gameManager : MonoBehaviour
     public AudioClip DoorSound;
     public AudioClip SpillSound;
     public AudioClip MopSound;
-    
-    
+
+   
 
     /* What do: adds a customer with a random order
      * Input: Nothing

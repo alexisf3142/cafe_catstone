@@ -14,6 +14,11 @@ public class PlayerData
         this.level = level;
     }
 
+    public void updateTotal(double money)
+    {
+        this.money = money;
+    }
+
     public override string ToString()
     {
         return $"{cafeName} cafe is at level {level} with ${money} ";
