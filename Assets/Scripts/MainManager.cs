@@ -63,6 +63,7 @@ public class MainManager : MonoBehaviour
     public void savePlayerData()
     {
         double total = totalText.GetComponent<ProfitsTracker>().getTotalProfit();
+        Debug.Log(playerData);
         playerData.updateTotal(total);
         jsonSaving.SaveData(playerData);
     }

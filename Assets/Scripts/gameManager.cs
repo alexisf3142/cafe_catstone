@@ -341,7 +341,7 @@ public class gameManager : MonoBehaviour
     private int numOfCustomersPerDay = 5;
     IEnumerator  Wait()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         Debug.Log("------------------Event!--------------------");
         Debug.Log(numOfCustomersPerDay);
         if (!endOfDay)

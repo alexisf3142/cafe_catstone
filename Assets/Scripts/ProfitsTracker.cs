@@ -42,6 +42,8 @@ public class ProfitsTracker : MonoBehaviour
     }
     public void setTotalProfit(float LoadedTotal)
     {
-        this.totalProfits =LoadedTotal;
+        //this.totalProfits =LoadedTotal;
+        addToProfits(LoadedTotal);
+        Debug.Log("UpdateTotal to: " +LoadedTotal);
     }
 }
