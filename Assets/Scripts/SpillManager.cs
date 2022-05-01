@@ -10,7 +10,9 @@ public class SpillManager : MonoBehaviour
     private List<GameObject> spills;
     
     public GameObject spillPrefab;
-    
+
+    public GameObject Profile;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +46,7 @@ public class SpillManager : MonoBehaviour
         int num = Random.Range(0, 5);
         Vector3 randSpot = spillPositions[num];
         spills.Add(Instantiate(spillPrefab, randSpot, transform.rotation));
+        Profile.GetComponent<ProfileUpdated>().CoffeeSpilledReaction();
     }
 
     public bool tryToClean(Vector3 playerPos)

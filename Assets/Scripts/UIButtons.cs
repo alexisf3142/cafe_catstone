@@ -4,12 +4,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class UIButtons : MonoBehaviour
 {
     public GameObject settingsMenu;
     private bool settingsOnScreen;
     public GameObject MainManager;
+
+    public GameObject SaveGameButton;
+    public GameObject ExitGameButton;
 
     private void Start()
     {

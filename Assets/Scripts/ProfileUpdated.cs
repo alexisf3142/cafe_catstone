@@ -5,12 +5,15 @@ using UnityEngine.UI;
 
 public class ProfileUpdated : MonoBehaviour
 {
-    public GameObject Happy;
+    public GameObject Profile;
+    public SpriteRenderer SpriteRenderer;
 
-    public GameObject Surprised;
-
-    public GameObject Normal;
-
+    public Sprite Happy;
+    public Sprite Surprised;
+    public Sprite Normal;
+    public Sprite Content;
+    public Sprite Sad;
+    
     //public GameObject TextBox;
 
     public Text text;
@@ -21,22 +24,20 @@ public class ProfileUpdated : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Normal.SetActive(true);
-        Surprised.SetActive(false);
+        SpriteRenderer.sprite = Happy;
         TextBox.gameObject.SetActive(true);
         text.gameObject.SetActive(true);
         text.text = "Welcome to the Cafe! Let's start the day!";
         StartCoroutine(waiter());
-
-
+        
     }
 
     IEnumerator waiter()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(5);
         text.gameObject.SetActive(false);
         TextBox.gameObject.SetActive(false);
-        Normal.SetActive(true);
+        SpriteRenderer.sprite = Normal;
     }
 
     // Update is called once per frame
@@ -45,9 +46,14 @@ public class ProfileUpdated : MonoBehaviour
         
     }
 
-    public void MakeSurprised()
+    
+    public void CoffeeSpilledReaction()
     {
-        
+        SpriteRenderer.sprite = Surprised;
+        TextBox.gameObject.SetActive(true);
+        text.gameObject.SetActive(true);
+        text.text = "Oh no! A spill! Make sure to clean it up!";
+        StartCoroutine(waiter());
     }
     
 }
