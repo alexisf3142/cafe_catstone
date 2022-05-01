@@ -17,8 +17,10 @@ public class MenuUIHandler : MonoBehaviour
 
     public void LoadGame()
     {
-        MenuManager.Instance.SetCafeName();
-        titleScreen.SetActive(false);
-        SceneManager.LoadScene(1);  
+        if (MenuManager.Instance.LoadCafeName())
+        {
+            titleScreen.SetActive(false);
+            SceneManager.LoadScene(1);      
+        }
     }
 }

@@ -9,7 +9,7 @@ public class MenuManager : MonoBehaviour
     public string cafeName;
     public bool newGame = false;
     public InputField inputField;
-
+    public GameObject DropDown;
     public void Awake()
     {
         if (Instance = null)
@@ -25,6 +25,19 @@ public class MenuManager : MonoBehaviour
     public void SetCafeName()
     {
         cafeName = inputField.text;
+    }
+    
+    public bool LoadCafeName()
+    {
+        cafeName = DropDown.GetComponent<DropdownHandler>().getSelectedSave();
+        if (cafeName == "Choose Save")
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
     }
 
     public void setNewGameTrue()

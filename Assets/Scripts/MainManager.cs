@@ -49,6 +49,8 @@ public class MainManager : MonoBehaviour
         {
             jsonSaving.SetPaths(m_cafeName);
             playerData = jsonSaving.LoadData();
+            //loading in data
+            totalText.GetComponent<ProfitsTracker>().setTotalProfit((float)playerData.money);
             Debug.Log(playerData);
         }
     }

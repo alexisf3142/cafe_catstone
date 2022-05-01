@@ -40,4 +40,8 @@ public class ProfitsTracker : MonoBehaviour
     {
         return this.totalProfits;
     }
+    public void setTotalProfit(float LoadedTotal)
+    {
+        this.totalProfits =LoadedTotal;
+    }
 }
