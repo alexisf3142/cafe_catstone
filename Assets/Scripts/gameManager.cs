@@ -50,10 +50,28 @@ public class gameManager : MonoBehaviour
      * Input: Nothing
      * Output: Void
      */
+    private int lastCustomer = 4;
+    int choosenCustomer = 0;
     void addCustomer()
     {
+        
+        if (lastCustomer == 4)
+        {
+            choosenCustomer = UnityEngine.Random.Range(0, 4);
+            lastCustomer = choosenCustomer;
+        }
+        else
+        {
+            choosenCustomer = UnityEngine.Random.Range(0, 3);
+            if (choosenCustomer == lastCustomer)
+            {
+                choosenCustomer = choosenCustomer + 1;
+            }
+            lastCustomer = choosenCustomer;
+        }
+        
         //add random things here
-        GameObject currCustomer = Instantiate(customerSpawnPrefabList[UnityEngine.Random.Range(0,4)], Waypoints.transform.GetChild(0).transform.position, transform.rotation);
+        GameObject currCustomer = Instantiate(customerSpawnPrefabList[choosenCustomer], Waypoints.transform.GetChild(0).transform.position, transform.rotation);
         theLine.Add(currCustomer);
         audioSource.clip = DoorSound;
         audioSource.Play();
