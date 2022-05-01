@@ -337,30 +337,59 @@ public class gameManager : MonoBehaviour
     
     //run Event
     private bool waitingForEvent = false;
+    private bool endOfDay = false;
+    private int numOfCustomersPerDay = 5;
     IEnumerator  Wait()
     {
-        yield return new WaitForSeconds(15);
+        yield return new WaitForSeconds(5);
         Debug.Log("------------------Event!--------------------");
-        int determineEvent = UnityEngine.Random.RandomRange(0, 2);
-        if (determineEvent == 0)
+        Debug.Log(numOfCustomersPerDay);
+        if (!endOfDay)
         {
-            //add customer
-            addCustomer();
-            updatePositions();
+            int determineEvent = UnityEngine.Random.Range(0, 2);
+            if (determineEvent == 0)
+            {
+                //add customer
+                addCustomer();
+                updatePositions();
+                //update player Counter in here
+                numOfCustomersPerDay = numOfCustomersPerDay - 1;
+            }
+            else
+            {
+                //add spill
+                GetComponent<SpillManager>().SpillCoffee();
+                audioSource.clip = SpillSound;
+                audioSource.Play();
+            }
+            waitingForEvent = false;
+            
         }
         else
         {
-            //add spill
-            GetComponent<SpillManager>().SpillCoffee();
-            audioSource.clip = SpillSound;
-            audioSource.Play();
+            //Finish up message here
+
+            if (theLine.Count == 0 && GetComponent<SpillManager>().getNumberOfSpills() == 0)
+            {
+                //Run Day is Ended And Everything is done
+                Debug.Log("-----------END OF DAY-------------");
+            }
+            else
+            {
+                Debug.Log("ALMOST END OF DAY");
+            }
+            waitingForEvent = false;
         }
-        waitingForEvent = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (numOfCustomersPerDay == 0)
+        {
+            endOfDay = true;
+        }
+
         if (!waitingForEvent)
         {
             waitingForEvent = true;

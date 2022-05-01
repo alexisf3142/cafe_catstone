@@ -68,4 +68,9 @@ public class SpillManager : MonoBehaviour
 
         return false;
     }
+
+    public int getNumberOfSpills()
+    {
+        return spills.Count;
+    }
 }
