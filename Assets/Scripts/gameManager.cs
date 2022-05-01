@@ -12,6 +12,7 @@ public class gameManager : MonoBehaviour
     public GameObject customerSpawnPrefab;
     public GameObject customerSpawnPrefab2;
     public GameObject customerSpawnPrefab3;
+    public GameObject customerSpawnPrefab4;
     private List<GameObject> customerSpawnPrefabList;
     public GameObject catPrefab1;
     public GameObject catPrefab2;
@@ -36,6 +37,11 @@ public class gameManager : MonoBehaviour
     public Animator animator;
 
     public float speed = 0.5f;
+
+    public AudioSource audioSource;
+    public AudioClip CashRegister;
+    public AudioClip DoorSound;
+    public AudioClip SpillSound;
     
     
 
@@ -46,8 +52,10 @@ public class gameManager : MonoBehaviour
     void addCustomer()
     {
         //add random things here
-        GameObject currCustomer = Instantiate(customerSpawnPrefabList[UnityEngine.Random.Range(0,3)], Waypoints.transform.GetChild(0).transform.position, transform.rotation);
+        GameObject currCustomer = Instantiate(customerSpawnPrefabList[UnityEngine.Random.Range(0,4)], Waypoints.transform.GetChild(0).transform.position, transform.rotation);
         theLine.Add(currCustomer);
+        audioSource.clip = DoorSound;
+        audioSource.Play();
     }
     
     void addCat(GameObject cat, Vector3 spawn)
@@ -97,6 +105,7 @@ public class gameManager : MonoBehaviour
         customerSpawnPrefabList.Add(customerSpawnPrefab);
         customerSpawnPrefabList.Add(customerSpawnPrefab2);
         customerSpawnPrefabList.Add(customerSpawnPrefab3);
+        customerSpawnPrefabList.Add(customerSpawnPrefab4);
     }
     
 
@@ -112,6 +121,8 @@ public class gameManager : MonoBehaviour
         hidePlayerCup();
         ProfitTracker.GetComponent<ProfitsTracker>().addToProfits(5f);
         coffeeDone = false;
+        audioSource.clip = CashRegister;
+        audioSource.Play();
     }
 
     /* What do: Removes the first person in line and sends them to the exit
@@ -262,6 +273,7 @@ public class gameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         hidePlayerCup();
         setUpLinesAndPaths();
         addCat(catPrefab1, CatPath1[2]);
@@ -320,7 +332,9 @@ public class gameManager : MonoBehaviour
         else
         {
             //add spill
-            GetComponent<SpillManager>().SpillCoffee();   
+            GetComponent<SpillManager>().SpillCoffee();
+            audioSource.clip = SpillSound;
+            audioSource.Play();
         }
         waitingForEvent = false;
     }
