@@ -44,6 +44,10 @@ public class gameManager : MonoBehaviour
     public AudioClip SpillSound;
     public AudioClip MopSound;
 
+    public bool AlmostEndPortrait = false;
+    public bool EndPortrait = false;
+    public GameObject Profile;
+
    
 
     /* What do: adds a customer with a random order
@@ -374,10 +378,20 @@ public class gameManager : MonoBehaviour
             {
                 //Run Day is Ended And Everything is done
                 Debug.Log("-----------END OF DAY-------------");
+                if (EndPortrait == false)
+                {
+                    Profile.GetComponent<ProfileUpdated>().EndOfDay();
+                    EndPortrait = true;
+                }
             }
             else
             {
                 Debug.Log("ALMOST END OF DAY");
+                if (AlmostEndPortrait == false)
+                {
+                    Profile.GetComponent<ProfileUpdated>().AlmostEndOfDay();
+                    EndPortrait = true;
+                }
             }
             waitingForEvent = false;
         }

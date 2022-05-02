@@ -55,5 +55,23 @@ public class ProfileUpdated : MonoBehaviour
         text.text = "Oh no! A spill! Make sure to clean it up!";
         StartCoroutine(waiter());
     }
+
+    public void AlmostEndOfDay()
+    {
+        SpriteRenderer.sprite = Content;
+        TextBox.gameObject.SetActive(true);
+        text.gameObject.SetActive(true);
+        text.text = "Almost closing time! Let's finish up!";
+        StartCoroutine(waiter());
+    }
+
+    public void EndOfDay()
+    {
+        SpriteRenderer.sprite = Sad;
+        TextBox.gameObject.SetActive(true);
+        text.gameObject.SetActive(true);
+        text.text = "I'm so tired, but good job today!";
+        StartCoroutine(waiter());
+    }
     
 }
