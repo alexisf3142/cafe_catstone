@@ -41,12 +41,29 @@ public class SpillManager : MonoBehaviour
         Debug.Log("SPAWNSPILL"); 
     }
     
+    private int lastSpill = 5;
     public void  SpillCoffee()
     {
-        int num = Random.Range(0, 5);
-        Vector3 randSpot = spillPositions[num];
-        spills.Add(Instantiate(spillPrefab, randSpot, transform.rotation));
-        Profile.GetComponent<ProfileUpdated>().CoffeeSpilledReaction();
+        if (lastSpill == 5)
+        {
+            int num = Random.Range(0, 5);
+            lastSpill = num;
+            Vector3 randSpot = spillPositions[num];
+            spills.Add(Instantiate(spillPrefab, randSpot, transform.rotation));
+            Profile.GetComponent<ProfileUpdated>().CoffeeSpilledReaction();   
+        }
+        else
+        {
+            int num = Random.Range(0, 4);
+            if (num == lastSpill)
+            {
+                num = num + 1;
+            }
+            lastSpill = num;
+            Vector3 randSpot = spillPositions[num];
+            spills.Add(Instantiate(spillPrefab, randSpot, transform.rotation));
+            Profile.GetComponent<ProfileUpdated>().CoffeeSpilledReaction();  
+        }
     }
 
     public bool tryToClean(Vector3 playerPos)

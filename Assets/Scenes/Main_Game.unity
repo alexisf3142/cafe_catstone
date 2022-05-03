@@ -9435,6 +9435,7 @@ GameObject:
   - component: {fileID: 1467341827}
   - component: {fileID: 1467341830}
   - component: {fileID: 1467341829}
+  - component: {fileID: 1467341828}
   m_Layer: 5
   m_Name: Total_UIText
   m_TagString: Untagged
@@ -9461,6 +9462,20 @@ RectTransform:
   m_AnchoredPosition: {x: 116, y: 849.7}
   m_SizeDelta: {x: 404.23572, y: 169.9043}
   m_Pivot: {x: 0, y: 1}
+--- !u!114 &1467341828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467341826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4b4b0dbd6fecf49b04cb11e2ebe77e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeServedText: {fileID: 1467341829}
+  MainManager: {fileID: 643942644}
 --- !u!114 &1467341829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9494,7 +9509,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '#
+  m_Text: 'HELLO
+
 
 '
 --- !u!222 &1467341830

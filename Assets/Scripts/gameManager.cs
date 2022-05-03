@@ -344,6 +344,12 @@ public class gameManager : MonoBehaviour
     private bool waitingForEvent = false;
     private bool endOfDay = false;
     private int numOfCustomersPerDay = 5;
+
+    public int getCurrNumOfCustomersLeft()
+    {
+        return numOfCustomersPerDay;
+    }
+
     IEnumerator  Wait()
     {
         yield return new WaitForSeconds(10);
@@ -351,8 +357,8 @@ public class gameManager : MonoBehaviour
         Debug.Log(numOfCustomersPerDay);
         if (!endOfDay)
         {
-            int determineEvent = UnityEngine.Random.Range(0, 2);
-            if (determineEvent == 0)
+            int determineEvent = UnityEngine.Random.Range(0, 100);
+            if (determineEvent < 64)
             {
                 //add customer
                 addCustomer();

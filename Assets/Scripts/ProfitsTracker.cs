@@ -18,7 +18,7 @@ public class ProfitsTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        profitText.text = "$" + (Mathf.Round(totalProfits * 100f)/100f).ToString("");
+        profitText.text = (Mathf.Round(totalProfits * 100f)/100f).ToString("");
     }
 
     public void addToProfits(float addMoney)
