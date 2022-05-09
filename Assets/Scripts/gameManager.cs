@@ -47,6 +47,7 @@ public class gameManager : MonoBehaviour
     public bool AlmostEndPortrait = false;
     public bool EndPortrait = false;
     public GameObject Profile;
+    public int CoffeeServed = 0;
 
    
 
@@ -79,6 +80,7 @@ public class gameManager : MonoBehaviour
         theLine.Add(currCustomer);
         audioSource.clip = DoorSound;
         audioSource.Play();
+        Profile.GetComponent<ProfileUpdated>().NewCustomer();
     }
     
     void addCat(GameObject cat, Vector3 spawn)
@@ -147,6 +149,9 @@ public class gameManager : MonoBehaviour
         coffeeDone = false;
         audioSource.clip = CashRegister;
         audioSource.Play();
+        CoffeeServed += 1;
+        Profile.GetComponent<ProfileUpdated>().UpdateCoffeeCount(CoffeeServed);
+        
     }
 
     /* What do: Removes the first person in line and sends them to the exit
@@ -159,7 +164,6 @@ public class gameManager : MonoBehaviour
         {
             GameObject leavingCustomer = this.theLine[0];
             this.theLine.RemoveAt(0);
-            
             leavingCustomer.GetComponent<prefabCustomer>().setTargetPosStack(ExitPath);
             DeleteCustomers.Add(leavingCustomer);
         }
@@ -384,11 +388,8 @@ public class gameManager : MonoBehaviour
             {
                 //Run Day is Ended And Everything is done
                 Debug.Log("-----------END OF DAY-------------");
-                if (EndPortrait == false)
-                {
-                    Profile.GetComponent<ProfileUpdated>().EndOfDay();
-                    EndPortrait = true;
-                }
+                Profile.GetComponent<ProfileUpdated>().EndOfDay();
+                EndPortrait = true;
             }
             else
             {

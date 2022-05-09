@@ -19,6 +19,9 @@ public class ProfileUpdated : MonoBehaviour
     public Text text;
 
     public Button TextBox;
+
+    public int CoffeeServed = 0;
+    public Text csText;
     
     
     // Start is called before the first frame update
@@ -72,6 +75,20 @@ public class ProfileUpdated : MonoBehaviour
         text.gameObject.SetActive(true);
         text.text = "I'm so tired, but good job today!";
         StartCoroutine(waiter());
+    }
+    
+    public void NewCustomer()
+    {
+        SpriteRenderer.sprite = Happy;
+        TextBox.gameObject.SetActive(true);
+        text.gameObject.SetActive(true);
+        text.text = "A customer! Coffee coming right up!";
+        StartCoroutine(waiter());
+    }
+
+    public void UpdateCoffeeCount(int count)
+    {
+        csText.text = count.ToString();
     }
     
 }
