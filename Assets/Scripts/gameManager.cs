@@ -36,6 +36,8 @@ public class gameManager : MonoBehaviour
     public GameObject ProfitTracker;
     public Animator animator;
 
+    public GameObject Clock;
+    
     public float speed = 0.5f;
 
     public AudioSource audioSource;
@@ -151,6 +153,7 @@ public class gameManager : MonoBehaviour
         audioSource.Play();
         CoffeeServed += 1;
         Profile.GetComponent<ProfileUpdated>().UpdateCoffeeCount(CoffeeServed);
+        Clock.GetComponent<clockScript>().UpdateClock();
         
     }
 
@@ -302,6 +305,7 @@ public class gameManager : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        Clock.GetComponent<clockScript>().setClockCustomerCount(numOfCustomersPerDay);
         hidePlayerCup();
         setUpLinesAndPaths();
         addCat(catPrefab1, CatPath1[2]);
