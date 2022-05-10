@@ -57,7 +57,7 @@ public class MainManager : MonoBehaviour
     
     private void CreateNewPlayerData(string name)
     {
-        playerData = new PlayerData(name, 0, 0);
+        playerData = new PlayerData(name, 0, 0, 0);
     }
 
     public void savePlayerData()

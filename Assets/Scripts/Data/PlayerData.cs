@@ -6,12 +6,14 @@ public class PlayerData
 {
     public string cafeName;
     public double money;
-    public int level;
+    public int day;
+    public int coffeeServed;
 
-    public PlayerData(string name, double money, int level){
+    public PlayerData(string name, double money, int day, int coffeeServed){
         this.cafeName = name;
         this.money = money;
-        this.level = level;
+        this.day = day;
+        this.coffeeServed = coffeeServed;
     }
 
     public void updateTotal(double money)
@@ -21,6 +23,6 @@ public class PlayerData
 
     public override string ToString()
     {
-        return $"{cafeName} cafe is at level {level} with ${money} ";
+        return $"{cafeName} cafe is at day {day} with ${money} with ${coffeeServed}";
     }
 }
