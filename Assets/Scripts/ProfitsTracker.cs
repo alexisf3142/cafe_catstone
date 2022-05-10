@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class ProfitsTracker : MonoBehaviour
 {
 
-    private float totalProfits;
+    private float totalProfits = 0;
     public Text profitText;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        totalProfits = 0;
+        
     }
 
     // Update is called once per frame
