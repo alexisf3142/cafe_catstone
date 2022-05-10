@@ -51,7 +51,12 @@ public class gameManager : MonoBehaviour
     public GameObject Profile;
     public int CoffeeServed = 0;
 
-   
+    private int NumOfCoffeeServed = 0;
+
+    public int getNumOfCoffeeServed()
+    {
+        return NumOfCoffeeServed;
+    }
 
     /* What do: adds a customer with a random order
      * Input: Nothing
@@ -154,7 +159,8 @@ public class gameManager : MonoBehaviour
         CoffeeServed += 1;
         Profile.GetComponent<ProfileUpdated>().UpdateCoffeeCount(CoffeeServed);
         Clock.GetComponent<clockScript>().UpdateClock();
-        
+        NumOfCoffeeServed = NumOfCoffeeServed + 1;
+
     }
 
     /* What do: Removes the first person in line and sends them to the exit

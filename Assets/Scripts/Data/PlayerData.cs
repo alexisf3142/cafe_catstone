@@ -20,6 +20,16 @@ public class PlayerData
     {
         this.money = money;
     }
+    
+    public void updateDay(int day)
+    {
+        this.day = day;
+    }
+    
+    public void updateCoffeeServed(int coffeeServed)
+    {
+        this.coffeeServed = coffeeServed;
+    }
 
     public override string ToString()
     {

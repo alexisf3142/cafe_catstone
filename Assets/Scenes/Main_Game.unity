@@ -3455,6 +3455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalText: {fileID: 1081144610}
+  cupTotal: {fileID: 1467341826}
 --- !u!4 &643942646
 Transform:
   m_ObjectHideFlags: 0

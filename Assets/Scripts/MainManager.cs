@@ -15,6 +15,7 @@ public class MainManager : MonoBehaviour
 
     [SerializeField]
     public GameObject totalText;
+    public GameObject cupTotal;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +52,9 @@ public class MainManager : MonoBehaviour
             playerData = jsonSaving.LoadData();
             //loading in data
             totalText.GetComponent<ProfitsTracker>().setTotalProfit((float)playerData.money);
+            cupTotal.GetComponent<coffeeServed>().setCoffeesServed(playerData.coffeeServed);
+            //update day here with playerData.day --------------------------------------
+            
             Debug.Log(playerData);
         }
     }
@@ -63,8 +67,21 @@ public class MainManager : MonoBehaviour
     public void savePlayerData()
     {
         double total = totalText.GetComponent<ProfitsTracker>().getTotalProfit();
+        int totalCups = cupTotal.GetComponent<coffeeServed>().getCoffeesServed();
         Debug.Log(playerData);
         playerData.updateTotal(total);
+        playerData.updateCoffeeServed(totalCups);
+        jsonSaving.SaveData(playerData);
+    }
+    
+    public void savePlayerData_EndOfDay()
+    {
+        double total = totalText.GetComponent<ProfitsTracker>().getTotalProfit();
+        int totalCups = cupTotal.GetComponent<coffeeServed>().getCoffeesServed();
+        Debug.Log(playerData);
+        playerData.updateTotal(total);
+        playerData.updateCoffeeServed(totalCups);
+        playerData.updateDay(playerData.day + 1);
         jsonSaving.SaveData(playerData);
     }
 
