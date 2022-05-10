@@ -23,4 +23,5 @@ public class MenuUIHandler : MonoBehaviour
             SceneManager.LoadScene(1);      
         }
     }
+    
 }

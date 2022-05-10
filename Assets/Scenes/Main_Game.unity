@@ -3417,6 +3417,7 @@ MonoBehaviour:
   Normal: {fileID: -3238813901825184631, guid: 3e94c3e4a631c4241aaeea83ea1a2ee2, type: 3}
   Content: {fileID: -6033421887271976617, guid: 3e32b04a5e0a3aa408f336694414cd3e, type: 3}
   Sad: {fileID: -6671224501336891539, guid: 3e32b04a5e0a3aa408f336694414cd3e, type: 3}
+  MainManager: {fileID: 643942644}
   text: {fileID: 199615564}
   TextBox: {fileID: 811916289}
   CoffeeServed: 0
@@ -3517,6 +3518,8 @@ MonoBehaviour:
   EndPortrait: 0
   Profile: {fileID: 632274020}
   CoffeeServed: 0
+  MainManager: {fileID: 643942644}
+  MenuUIHander: {fileID: 0}
 --- !u!114 &643942649
 MonoBehaviour:
   m_ObjectHideFlags: 0

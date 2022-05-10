@@ -13,25 +13,39 @@ public class ProfileUpdated : MonoBehaviour
     public Sprite Normal;
     public Sprite Content;
     public Sprite Sad;
+
+    public GameObject MainManager;
     
     //public GameObject TextBox;
 
     public Text text;
 
     public Button TextBox;
-
-    public int CoffeeServed = 0;
+    
     public Text csText;
     
     
     // Start is called before the first frame update
     void Start()
     {
-        SpriteRenderer.sprite = Happy;
-        TextBox.gameObject.SetActive(true);
-        text.gameObject.SetActive(true);
-        text.text = "Welcome to the Cafe! Let's start the day!";
-        StartCoroutine(waiter());
+        if (MainManager.GetComponent<MainManager>().GetDay() > 1)
+        {
+            SpriteRenderer.sprite = Happy;
+            TextBox.gameObject.SetActive(true);
+            text.gameObject.SetActive(true);
+            text.text = "A brand new day! Let's work hard!";
+            StartCoroutine(waiter());
+
+        }
+        else
+        {
+            SpriteRenderer.sprite = Happy;
+            TextBox.gameObject.SetActive(true);
+            text.gameObject.SetActive(true);
+            text.text = "Welcome to the Cafe! Let's start the day!";
+            StartCoroutine(waiter()); 
+        }
+        
         
     }
 

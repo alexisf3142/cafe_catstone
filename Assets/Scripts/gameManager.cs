@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class gameManager : MonoBehaviour
@@ -52,6 +53,8 @@ public class gameManager : MonoBehaviour
     public int CoffeeServed = 0;
 
     private int NumOfCoffeeServed = 0;
+    public GameObject MainManager;
+    public GameObject MenuUIHander;
 
     public int getNumOfCoffeeServed()
     {
@@ -400,7 +403,12 @@ public class gameManager : MonoBehaviour
                 Debug.Log("-----------END OF DAY-------------");
                 Profile.GetComponent<ProfileUpdated>().EndOfDay();
                 EndPortrait = true;
+                MainManager.GetComponent<MainManager>().savePlayerData_EndOfDay();
+                waiter();
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                
             }
+            
             else
             {
                 Debug.Log("ALMOST END OF DAY");
@@ -412,6 +420,12 @@ public class gameManager : MonoBehaviour
             }
             waitingForEvent = false;
         }
+    }
+    
+    IEnumerator waiter()
+    {
+        yield return new WaitForSeconds(10);
+        
     }
 
     // Update is called once per frame
