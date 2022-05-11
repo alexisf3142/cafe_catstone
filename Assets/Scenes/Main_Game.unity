@@ -3420,7 +3420,6 @@ MonoBehaviour:
   MainManager: {fileID: 643942644}
   text: {fileID: 199615564}
   TextBox: {fileID: 811916289}
-  CoffeeServed: 0
   csText: {fileID: 1467341829}
 --- !u!1 &643942644
 GameObject:
@@ -3431,11 +3430,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 643942646}
-  - component: {fileID: 643942647}
   - component: {fileID: 643942645}
   - component: {fileID: 643942648}
   - component: {fileID: 643942649}
   - component: {fileID: 643942650}
+  - component: {fileID: 643942647}
   m_Layer: 0
   m_Name: MainManager
   m_TagString: Untagged
@@ -3456,6 +3455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalText: {fileID: 1081144610}
+  coffeeServedText: {fileID: 1467341826}
   cupTotal: {fileID: 1467341826}
 --- !u!4 &643942646
 Transform:
@@ -9663,6 +9663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coffeeServedText: {fileID: 1467341829}
   MainManager: {fileID: 643942644}
+  Profile: {fileID: 0}
 --- !u!114 &1467341829
 MonoBehaviour:
   m_ObjectHideFlags: 0

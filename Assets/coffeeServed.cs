@@ -9,18 +9,19 @@ public class coffeeServed : MonoBehaviour
     public GameObject MainManager;
     
     private int NumOfCoffeeServed;
+    private int numberOfCustomersPerDay;
     public GameObject Profile;
     
     
     // Start is called before the first frame update
     void Start()
     {
-        //numberOfCustomersPerDay = MainManager.GetComponent<gameManager>().getCurrNumOfCustomersLeft();
+        numberOfCustomersPerDay = MainManager.GetComponent<gameManager>().getCurrNumOfCustomersLeft();
     }
 
     private void updateCoffeeServed()
     {
-        //int NumOfCoffeeServed = numberOfCustomersPerDay -  MainManager.GetComponent<gameManager>().getCurrNumOfCustomersLeft();
+        //NumOfCoffeeServed = numberOfCustomersPerDay -  MainManager.GetComponent<gameManager>().getCurrNumOfCustomersLeft();
         //coffeeServedText.text = NumOfCoffeeServed.ToString();
         NumOfCoffeeServed = NumOfCoffeeServed + MainManager.GetComponent<gameManager>().getNumOfCoffeeServed();
         Profile.GetComponent<ProfileUpdated>().UpdateCoffeeCount(NumOfCoffeeServed);

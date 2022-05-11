@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MainManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class MainManager : MonoBehaviour
     private PlayerData playerData;
 
     [SerializeField] public GameObject totalText;
+    [SerializeField] public GameObject coffeeServedText;
 
     public GameObject cupTotal;
 
@@ -73,20 +75,24 @@ public class MainManager : MonoBehaviour
     public void savePlayerData()
     {
         double total = totalText.GetComponent<ProfitsTracker>().getTotalProfit();
-        int totalCups = cupTotal.GetComponent<coffeeServed>().getCoffeesServed();
+        //int totalCups = cupTotal.GetComponent<coffeeServed>().getCoffeesServed();
         Debug.Log(playerData);
         playerData.updateTotal(total);
-        playerData.updateCoffeeServed(totalCups);
+        var cupsServed = Int32.Parse(cupTotal.GetComponent<Text>().text);
+        playerData.updateCoffeeServed(cupsServed);
+        Debug.Log("CUPS =" +cupsServed);
         jsonSaving.SaveData(playerData);
     }
     
     public void savePlayerData_EndOfDay()
     {
         double total = totalText.GetComponent<ProfitsTracker>().getTotalProfit();
-        int totalCups = cupTotal.GetComponent<coffeeServed>().getCoffeesServed();
+        //int totalCups = cupTotal.GetComponent<coffeeServed>().getCoffeesServed();
         Debug.Log(playerData);
         playerData.updateTotal(total);
-        playerData.updateCoffeeServed(totalCups);
+        var cupsServed = Int32.Parse(cupTotal.GetComponent<Text>().text);
+        playerData.updateCoffeeServed(cupsServed);
+        Debug.Log("CUPS =" +cupsServed);
         playerData.updateDay(playerData.day + 1);
         jsonSaving.SaveData(playerData);
     }

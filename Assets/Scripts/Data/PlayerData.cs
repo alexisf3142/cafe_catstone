@@ -33,6 +33,6 @@ public class PlayerData
 
     public override string ToString()
     {
-        return $"{cafeName} cafe is at day {day} with ${money} with ${coffeeServed}";
+        return $"{cafeName} cafe is at day {day} with ${money} with {coffeeServed} coffees served";
     }
 }

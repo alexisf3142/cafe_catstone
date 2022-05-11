@@ -1,6 +1,9 @@
 using System.IO;
 using UnityEngine;
 
+
+//public GameObject cupTotal;
+
 public class JSONSaving : MonoBehaviour
 {
     
@@ -27,6 +30,7 @@ public class JSONSaving : MonoBehaviour
 
     public void SaveData(PlayerData playerData)
     {
+        playerData.coffeeServed  = 2;
         string savePath = path;
         Debug.Log("Saving Data " + savePath);
         string json = JsonUtility.ToJson(playerData);
@@ -45,4 +49,5 @@ public class JSONSaving : MonoBehaviour
         Debug.Log(data.ToString());
         return data;
     }
+
 }
